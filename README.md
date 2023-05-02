@@ -5,6 +5,8 @@
 
 - [Quick Syllabus](#quick-syllabus)
 - [Tentative Schedule](#tentative-schedule)
+- [Course Description](#course-description)
+- [Course Materials](#course-materials)
 - [Suggested Study Habits](#suggested-study-habits)
 
 
@@ -74,6 +76,53 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 **Final Exam Schedule**
 
 - TBD
+
+## Course Description
+
+### Prerequisites
+
+Qualifying scores on ELM and EPT, or exemption, or satisfactory completion of appropriate developmental courses.
+
+### Course Overview
+
+Alfred Marshall once described economics as the "study of manking in the ordinary business of life." I can't think of a better description. Economics helps us understand everything from business and politics to marriage and dating. It is not just a field of study. It is a way of thinking that helps us understand the world and the people around us. I can't think of a better subject for future CEOs, politicians, and leaders. I can't think of a better subject for becoming a more informed citizen.
+
+In this class, you will begin your journey to **thinking like an economist**. Primarily, this means being able to see how private incentives and market forces shape the way people behave and how societies are organized. The starting point will be supply and demand in competitive markets and its applications. We will then turn to more advanced topics, like public goods, externalities, and more complex market structures.
+
+### Course Learning Outcomes
+
+By the end of the course, you will be able to:
+
+- **Explain** what the study of economics is and **discuss** the role of economic theory in shaping different views of markets and public policy.
+
+- **Explain** the principle of supply and demand and explain why economists generally believe that free markets are an efficient way to allocate resources.
+
+- **Explain** the circumstances under which free markets fail to allocate resources efficiently and **discuss** the role of government under these circumstances.
+
+- **Analyze** the economic principles and forces that shape a variety of real-world scenarios and market structures.
+
+- **Predict** and **calculate** equilibrium outcomes in a variety of real-world scenarios and market structures using the appropriate economic concepts and models.
+
+## Course Materials
+
+### Required Textbook
+
+The required textbook is *Principles of Microeconomics* by Edward Kung (ISBN: 9781644967027). It is a digital textbook that can be purchased from www.grlcontent.com. Click on "purchase" and enter your institution (California State University, Northridge) and select "Principles of Microeconomics". Make sure you select the correct section! You should be enrolled in one of the two following sections:
+
+- Fall 2023: Kung: Econ 160-02
+- Fall 2023: Kung: Econ 160-03
+
+You can also purchase access cards from the CSUN Bookstore.
+
+### Calculator
+
+A handheld calculator will be required for exams and some quizzes. Calculators with programming capabilities are not allowed.
+
+### Video Lecture Series
+
+A series of video lectuers I recorded during COVID is available free of charge. These are optional but may be a helpful supplement to the textbook chapters. They cover the same material as the textbook.
+
+[Link to playlist](https://www.youtube.com/playlist?list=PL6ylNfxZ9nJRmytJD0DEVLScRQb0v0cL6)
 
 
 ## Suggested Study Habits
