@@ -4,7 +4,7 @@
 
 # Fall 2023 Syllabus
 
-## Table of Contents
+# Table of Contents
 
 - [Quick Syllabus](#quick-syllabus)
 - [Tentative Schedule](#tentative-schedule)
@@ -13,7 +13,7 @@
 - [Suggested Study Habits](#suggested-study-habits)
 - [Additional Course Policies and Resources](#additional-course-policies)
 
-## Quick Syllabus
+# Quick Syllabus
 
 **Professor**:
 - Dr. Edward Kung
@@ -56,7 +56,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 | 100-93 | 92-90 | 89-87 | 86-83 | 82-80 | 79-77 | 76-73 | 72-70 | 69-60 | 59-0 |
 
 
-## Tentative Schedule
+# Tentative Schedule
 
 | Week  | Dates       | Monday          | Tuesday            | Thursday                             |
 | ----- | ----------- | --------------- | ------------------ | ------------------------------------ |
@@ -80,7 +80,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 
 - TBD
 
-## Course Description
+# Course Description
 
 ### Prerequisites
 
@@ -106,7 +106,7 @@ By the end of the course, you will be able to:
 
 - **Predict** and **calculate** equilibrium outcomes in a variety of real-world scenarios and market structures using the appropriate economic concepts and models.
 
-## Course Materials
+# Course Materials
 
 ### Required Textbook
 
@@ -128,7 +128,7 @@ A series of video lectuers I recorded during COVID is available free of charge. 
 [Link to playlist](https://www.youtube.com/playlist?list=PL6ylNfxZ9nJRmytJD0DEVLScRQb0v0cL6)
 
 
-## Suggested Study Habits
+# Suggested Study Habits
 
 My number 1 tip is to not try to cram everything in at once. Your brain needs time to digest. Spread out your study in 30 minute to 1 hour chunks throughout the week. I suggest the following schedule:
 
@@ -148,7 +148,7 @@ My number 1 tip is to not try to cram everything in at once. Your brain needs ti
 
   - Come to office hours if needed. The chapter quiz is due at the end of the day so focus on developing the understanding necessary to score 100% on it.
   
-## Additional Course Policies and Resources
+# Additional Course Policies and Resources
 
 ### Late and Missing Assignment Policy
 
