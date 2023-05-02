@@ -2,8 +2,10 @@
 # Fall 2023 Syllabus
 
 ## Table of Contents
-[Quick Syllabus](#Quick Syllabus)
-[Suggested Study Habits](#Suggested Study Habits)
+
+[Quick Syllabus](##Quick Syllabus)
+
+[Suggested Study Habits](##Suggested Study Habits)
 
 ## Quick Syllabus
 
