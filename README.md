@@ -8,7 +8,7 @@
 - [Course Description](#course-description)
 - [Course Materials](#course-materials)
 - [Suggested Study Habits](#suggested-study-habits)
-
+- [Additional Course Policies and Resources](#additional-course-policies)
 
 ## Quick Syllabus
 
@@ -107,7 +107,7 @@ By the end of the course, you will be able to:
 
 ### Required Textbook
 
-The required textbook is *Principles of Microeconomics* by Edward Kung (ISBN: 9781644967027). It is a digital textbook that can be purchased from www.grlcontent.com. Click on "purchase" and enter your institution (California State University, Northridge) and select "Principles of Microeconomics". Make sure you select the correct section! You should be enrolled in one of the two following sections:
+The required textbook is *Principles of Microeconomics* by Edward Kung (ISBN: 9781644967027). It is a digital textbook that can be purchased from [Great River Learning](https://www.grlcontent.com). Click on "purchase" and enter your institution (California State University, Northridge) and select "Principles of Microeconomics". Make sure you select the correct section! You should be enrolled in one of the two following sections:
 
 - Fall 2023: Kung: Econ 160-02
 - Fall 2023: Kung: Econ 160-03
@@ -127,23 +127,63 @@ A series of video lectuers I recorded during COVID is available free of charge. 
 
 ## Suggested Study Habits
 
-My number 1 tip is to not try to cram everything in at once. The brain needs time to digest. Spread out your study in bite-sized chunks throughout the week. I suggest the following schedule:
+My number 1 tip is to not try to cram everything in at once. Your brain needs time to digest. Spread out your study in 30 minute to 1 hour chunks throughout the week. I suggest the following schedule:
 
-- Wednesday, before lecture (30 minutes to 1 hour)
+- **Wednesday, before lecture (30 minutes to 1 hour)**
 
   - Skim the chapter and try the end-of-chapter quiz once, quickly. Don't worry about getting everything right or about fixing the problems you got wrong. Write down some questions you had about the chapter and about the problems.
 
-- Thursday, after lecture (30 minute to 1 hour)
+- **Thursday, after lecture (30 minute to 1 hour)**
 
   - Try the quiz again. Focus on understanding the problems. If you get 100% and feel confident in your understanding, you're done. If you still struggle after a while, write down your problem areas and come back later.
 
-- Weekend, before Monday (as needed)
+- **Weekend, before Monday (as needed)**
 
   - Review the chapter as needed. Try finishing the quiz and getting 100%. If you are still struggling after two hours, write down your problem areas and come to office hours on Monday.
 
-- Monday (as needed)
+- **Monday (as needed)**
 
   - Come to office hours if needed. The chapter quiz is due at the end of the day so focus on developing the understanding necessary to score 100% on it.
   
+## Additional Course Policies and Resources
+
+### Late and Missing Assignment Policy
+
+Requests for late submissions or extensions, beyond what is allowed in the syllabus, must be submitted by email with accompanying documentation. Only unanticipated family or medical emergencies, or other extraordinary events, will be considered valid reasons. Events that could reasonably have been anticipated, such as heavy academic workload or busy work schedule, will not be accepted as valid reasons.
+
+### Academic Integrity
+
+By taking this course, you certify that all work is your own. Plagiarism is not allowed, and you are not allowed to have someone else do any course work in your place. If it is discovered that you have violated academic integrity on any assignment, you will receive a grade of zero for that assignment. Repeated violations of academic integrity may result in a failing grade for the entire course.
+
+### Minimum Attempt Policy
+
+You must at least attempt to answer every question on an assignment. If you skip a question without attempting an answer, you may receive a grade of zero for the entire assignment.
+
+### Students with Disabilities
+
+If you have a disability or need special accommodations, please register with the Disability Resources and Educational Services ([DRES](https://www.csun.edu/dres)) office or the National Center of Deafness ([NCOD](https://www.csun.edu/ncod)). If you would like to discuss your need for accommodations with me, please contact me to set up an appointment.
+
+### Emergency Food and Shelter
+
+If you are experiencing an emergency need for food or shelter, do not hesitate to utilize the resources available to you on campus. More information: https://www.csun.edu/heart.
+
+### University Counseling Services
+
+If you have need for counseling regarding any personal or academic issues, do not hesitate to reach out to the University's counseling services. More information: https://www.csun.edu/counseling/students.
+
+### Tutoring Services
+
+Tutoring services may be available for this course. Please contact the Economics Department for information: https://www.csun.edu/economics.
+
+### Diversity Statement
+
+It is my intent that students from diverse backgrounds and perspectives will be well served by this course, that students' learning needs will be addressed both in and out of the classroom, and that the diversity students bring to the class will be viewed as a resource, strength, and benefit. It is my intent to present materials and activities in a way that is respectful to students from all backgrounds, and that students from all backgrounds have an equal opportunity to succeed in the course. If you have any concerns, feel free to reach out to me.
+
+### All Other Policies
+
+In general, the course follows all relevant CSUN policies and procedures as documented here: https://catalog.csun.edu/policies/alphabetical. Please pay special attention to the rules on **attendance** and **academic dishonesty**.
+
+
+
 
 
