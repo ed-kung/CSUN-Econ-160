@@ -1,6 +1,6 @@
 # CSUN Econ 160: Microeconomic Principles
 
-![Logo](logo.jpeg)
+![Logo](assets/images/logo.jpeg)
 
 # Fall 2023 Syllabus
 
