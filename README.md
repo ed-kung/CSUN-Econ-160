@@ -3,9 +3,7 @@
 
 ## Table of Contents
 
-[Quick Syllabus](##Quick Syllabus)
-
-[Suggested Study Habits](##Suggested Study Habits)
+[Quick Syllabus](#quick-syllabus)
 
 ## Quick Syllabus
 
