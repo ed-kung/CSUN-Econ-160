@@ -15,16 +15,18 @@
 
 # Quick Syllabus
 
-**Professor**:
+### Professor
+
 - Dr. Edward Kung
 - edward.kung@csun.edu
 
-**Lectures**: 
+### Lectures 
+
 - Section 03 TuTh 9:30am - 10:45am @ Bookstein 1123
 - Section 02 TuTh 12:30pm - 1:45pm @ Bookstein 1131
 
-**Office Hours**:
-- M: 9:00am - 10:00am @ Bookstein 4252
+### Office Hours
+
 - TuTh 2:00pm - 3:00pm @ Bookstein 4252
 
 ### Course Organization
@@ -76,7 +78,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 |    14 | 11/27-12/1  | Ch.14 Quiz Due  | Ch.14 Discussion   | Ch.15 Monopolistic Competition       |
 |    15 | 12/4-12/8   | Ch.15 Quiz Due  | Ch.15 Discussion   | Practice Final                       |
 
-**Final Exam Schedule**
+### Final Exam Schedule
 
 - TBD
 
@@ -140,15 +142,15 @@ My number 1 tip is to not try to cram everything in at once. Your brain needs ti
 
   - Try the quiz again. Focus on understanding the problems. If you get 100% and feel confident in your understanding, you're done. If you still struggle after a while, write down your problem areas and come back later.
 
-- **Weekend, before Monday (as needed)**
+- **Weekend / Monday (as needed)**
 
-  - Review the chapter as needed. Try finishing the quiz and getting 100%. If you are still struggling after two hours, write down your problem areas and come to office hours on Monday.
-
-- **Monday (as needed)**
-
-  - Come to office hours if needed. The chapter quiz is due at the end of the day so focus on developing the understanding necessary to score 100% on it.
+  - Review the chapter as needed. Try finishing the quiz and getting 100%. If you are still struggling after two hours, write down your problem areas and email me for help.
   
 # Additional Course Policies and Resources
+
+### Communications Policy
+
+My preferred form of communication is in-person after class or at office hours, or by email. If you email me and I do not respond within 24 hours, do not hesitate to re-send the email. Sometimes emails get lost in the shuffle.
 
 ### Late and Missing Assignment Policy
 
