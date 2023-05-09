@@ -114,6 +114,8 @@ By the end of the course, you will be able to:
 
 ### Required Textbook
 
+<img src="assets/images/logo.jpeg" width="120">
+
 The required textbook is *Principles of Microeconomics* by Edward Kung (ISBN: 9781644967027). It is a digital textbook that can be purchased from [Great River Learning](https://www.grlcontent.com). Click on "purchase" and enter your institution (California State University, Northridge) and select "Principles of Microeconomics". Make sure you select the correct section! You should be enrolled in one of the two following sections:
 
 - Fall 2023: Kung: Econ 160-02
@@ -123,7 +125,9 @@ You can also purchase access cards from the CSUN Bookstore.
 
 ### Calculator
 
-A handheld calculator will be required for exams and some quizzes. Calculators with programming capabilities are not allowed.
+<img src="assets/images/calculator.jpg" width="80">
+
+A handheld calculator will be required for exams and some quizzes. Any kind of calculator is allowed, but you are not allowed to use programming and data storage capabilities of advanced calculators on exams.
 
 ### Video Lecture Series
 
