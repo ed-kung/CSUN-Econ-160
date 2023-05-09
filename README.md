@@ -10,6 +10,7 @@
 - [Tentative Schedule](#tentative-schedule)
 - [Course Description](#course-description)
 - [Course Materials](#course-materials)
+- [Exam Policies and Information](#exam-policies-and-information)
 - [Suggested Study Habits](#suggested-study-habits)
 - [Additional Course Policies and Resources](#additional-course-policies)
 
@@ -44,10 +45,10 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 
 - **Online Textbook Quizzes (40%)**
   - Due Mondays at midnight. You have unlimited attempts before the due date. You only need to score 90% to get full credit. Points above 90% are counted towards extra credit.
-  - Submissions after the due date will be accepted but will receive a maximum of 60% credit.
+  - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
 - **In-class Quizzes and Attendance (30%)**
-  - The questions will be given in class and the quizzes will be completed in Canvas. The in-class quizzes also count as your attendance score. You can miss 3 in-class quizzes without giving me an excuse. Further absences will require a valid reason.
+  - There will be a short in-class quiz every session. The questions will be given in class and the quizzes will be completed in Canvas. The in-class quizzes also count as your attendance score. You can miss up to 4 in-class quizzes without giving me an excuse. Further absences will require a valid reason.
   
 - **Midterm Exam (10%)**
   - An in-person midterm exam during one of the weekly sessions.
@@ -137,6 +138,22 @@ A series of video lectuers I recorded during COVID is available free of charge. 
 
 [Link to playlist](https://www.youtube.com/playlist?list=PL6ylNfxZ9nJRmytJD0DEVLScRQb0v0cL6)
 
+# Exam Policies and Information
+
+Both the midterm and final exam will be *in-person*, *on paper*, *multiple choice* exams. You will be required to bring:
+
+- A Scantron Form 882 (both green and blue versions are fine) for marking your answers.
+
+    <img src="assets/images/scantron.png" width="100">
+
+- A No.2 pencil for marking the scantron.
+- An eraser for erasing mistakes.
+- A calculator. Any kind of calculator is allowed but you are not allowed to use programming or data storage functionalities.
+- Your CSUN ID card.
+
+In addition, you are allowed to bring:
+
+- A 3x5 inch index card of notes. You can fill out both the front and the back with any notes you wish.
 
 # Suggested Study Habits
 
