@@ -17,6 +17,8 @@
 
 ### Professor
 
+![Logo](assets/images/photo2.jpg)
+
 - Dr. Edward Kung
 - edward.kung@csun.edu
 
