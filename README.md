@@ -131,6 +131,8 @@ A handheld calculator will be required for exams and some quizzes. Any kind of c
 
 ### Video Lecture Series
 
+<img src="assets/images/youtube2.png" width="100">
+
 A series of video lectuers I recorded during COVID is available free of charge. These are optional but may be a helpful supplement to the textbook chapters. They cover the same material as the textbook.
 
 [Link to playlist](https://www.youtube.com/playlist?list=PL6ylNfxZ9nJRmytJD0DEVLScRQb0v0cL6)
