@@ -155,6 +155,10 @@ In addition, you are allowed to bring:
 
 - A 3x5 inch index card of notes. You can fill out both the front and the back with any notes you wish.
 
+Scratch paper is provided.
+
+At the end of the exam, you will turn in both your scantron and your exam booklet. You will also show me your student ID to verify your identity.
+
 # Suggested Study Habits
 
 My number 1 tip is to not try to cram everything in at once. Your brain needs time to digest. Spread out your study in 30 minute to 1 hour chunks throughout the week. I suggest the following schedule:
