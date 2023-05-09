@@ -144,7 +144,7 @@ Both the midterm and final exam will be *in-person*, *on paper*, *multiple choic
 
 - A Scantron Form 882 (both green and blue versions are fine) for marking your answers.
 
-    <img src="assets/images/scantron.png" width="100">
+    <img src="assets/images/scantron.png" width="120">
 
 - A No.2 pencil for marking the scantron.
 - An eraser for erasing mistakes.
