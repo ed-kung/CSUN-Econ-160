@@ -43,7 +43,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 
 ### Grading
 
-- **Online Textbook Quizzes (40%)**
+- **Online Textbook Quizzes (35%)**
   - Due Mondays at midnight. You have unlimited attempts before the due date. You only need to score 90% to get full credit. Points above 90% are counted towards extra credit.
   - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
@@ -53,7 +53,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 - **Midterm Exam (10%)**
   - An in-person midterm exam during one of the weekly sessions.
   
-- **Final Exam (20%)**
+- **Final Exam (25%)**
   - An in-person final exam during finals week.
 
 |  A     |  A-   |  B+   |  B    |  B-   |  C+   |  C    |  C-   |  D    |  F   |
