@@ -78,7 +78,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 |    11 | 11/6-11/10  | Ch.11 Discussion   | Ch.12: Costs of Production           | Ch.12 Quiz         |
 |    12 | 11/13-11/17 | Ch.12 Discussion   | Ch.13: Perfectly Competitive Markets | Ch.13 Quiz         |
 |    13 | 11/20-11/24 | Ch.13 Discussion   | *THANKSGIVING BREAK*                 |                    |
-|    14 | 11/27-12/1  | Ch.14: Monopoly    | Ch.15 Monopolistic Competition       | Ch.l4 & Ch.15 Quiz |
+|    14 | 11/27-12/1  | Ch.14: Monopoly    | Ch.15 Monopolistic Competition       | Ch.14 & Ch.15 Quiz |
 |    15 | 12/4-12/8   | Ch.14 Discussion   | Ch.15 Discussion                     |                    |
 
 ### Final Exam Schedule
