@@ -63,23 +63,23 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 
 # Tentative Schedule
 
-| Week  | Dates       | Tuesday            | Thursday                             | Homework (due Mon) |
-| ----- | ----------- | ------------------ | ------------------------------------ | ------------------ |
-|     1 | 8/28-9/1    | Ch.1: Introduction | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
-|     2 | 9/4-9/8     | Ch.2 Discussion    | Ch.3: Specialization and Trade       | Ch.3 Quiz          |
-|     3 | 9/11-9/15   | Ch.3 Discussion    | Ch.4: Supply and Demand              | Ch.4 Quiz          |
-|     4 | 9/18-9/22   | Ch.4 Discussion    | Ch.5: Using Supply and Demand        | Ch.5 Quiz          |
-|     5 | 9/25-9/29   | Ch.5 Discussion    | Ch.6: Elasticity                     | Ch.6 Quiz          |
-|     6 | 10/2-10/6   | Ch.6 Discussion    | Ch.7: Consumer and Producer Surplus  | Ch.7 Quiz          |
-|     7 | 10/9-10/13  | Ch.7 Discussion    | Ch.8: Taxation                       | Ch.8 Quiz          |
-|     8 | 10/16-10/20 | Ch.8 Discussion    | Ch.9: International Trade            | Ch.9 Quiz          |
-|     9 | 10/23-10/27 | Ch.9 Discussion    | Ch.10: Public Goods                  | Ch.10 Quiz         |
-|    10 | 10/30-11/3  | Midterm Exam       | Ch.11: Externalities                 | Ch.11 Quiz         |
-|    11 | 11/6-11/10  | Ch.11 Discussion   | Ch.12: Costs of Production           | Ch.12 Quiz         |
-|    12 | 11/13-11/17 | Ch.12 Discussion   | Ch.13: Perfectly Competitive Markets | Ch.13 Quiz         |
-|    13 | 11/20-11/24 | Ch.13 Discussion   | *THANKSGIVING BREAK*                 |                    |
-|    14 | 11/27-12/1  | Ch.14: Monopoly    | Ch.15 Monopolistic Competition       | Ch.14 & Ch.15 Quiz |
-|    15 | 12/4-12/8   | Ch.14 Discussion   | Ch.15 Discussion                     |                    |
+| Week  | Dates       | Tuesday                  | Thursday                             | Homework (due Mon) |
+| ----- | ----------- | ------------------------ | ------------------------------------ | ------------------ |
+|     1 | 8/28-9/1    | Ch.1: Introduction       | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
+|     2 | 9/4-9/8     | Ch.2 Discussion          | Ch.3: Specialization and Trade       | Ch.3 Quiz          |
+|     3 | 9/11-9/15   | Ch.3 Discussion          | Ch.4: Supply and Demand              | Ch.4 Quiz          |
+|     4 | 9/18-9/22   | Ch.4 Discussion          | Ch.5: Using Supply and Demand        | Ch.5 Quiz          |
+|     5 | 9/25-9/29   | Ch.5 Discussion          | Ch.6: Elasticity                     | Ch.6 Quiz          |
+|     6 | 10/2-10/6   | Ch.6 Discussion          | Ch.7: Consumer and Producer Surplus  | Ch.7 Quiz          |
+|     7 | 10/9-10/13  | Ch.7 Discussion          | Ch.8: Taxation                       | Ch.8 Quiz          |
+|     8 | 10/16-10/20 | Ch.8 Discussion          | Ch.9: International Trade            | Ch.9 Quiz          |
+|     9 | 10/23-10/27 | Ch.9 Discussion          | Ch.10: Public Goods                  | Ch.10 Quiz         |
+|    10 | 10/30-11/3  | Midterm Exam             | Ch.11: Externalities                 | Ch.11 Quiz         |
+|    11 | 11/6-11/10  | Ch.11 Discussion         | Ch.12: Costs of Production           | Ch.12 Quiz         |
+|    12 | 11/13-11/17 | Ch.12 Discussion         | Ch.13: Perfectly Competitive Markets | Ch.13 Quiz         |
+|    13 | 11/20-11/24 | Ch.13 Discussion         | *THANKSGIVING BREAK*                 |                    |
+|    14 | 11/27-12/1  | Ch.14: Monopoly          | Ch.15 Monopolistic Competition       | Ch.14 & Ch.15 Quiz |
+|    15 | 12/4-12/8   | Ch.14 & Ch.15 Discussion | Final Review                         |                    |
 
 ### Final Exam Schedule
 
