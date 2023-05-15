@@ -48,7 +48,9 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
   - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
 - **In-class Quizzes and Attendance (30%)**
-  - There will be a short in-class quiz every Tuesday. The questions will be given in class and the quizzes will be completed in Canvas. The in-class quizzes also count as your attendance score. You can miss up to 2 in-class quizzes without giving me an excuse. Further absences will require a valid reason. You must be in attendance in-person in order to take the quiz.
+  - There will be a short in-class quiz every Tuesday. The questions will be given in class and the quizzes will be completed in Canvas. 
+  - The in-class quizzes will also count as your attendance score. You must be in-class in-person in order to get credit for the quiz. This will be checked.
+  - You can miss up to 2 in-class quizzes without giving me an excuse. Further absences will require a valid reason. 
   
 - **Midterm Exam (10%)**
   - An in-person midterm exam during one of the weekly sessions.
@@ -161,7 +163,7 @@ At the end of the exam, you will turn in both your scantron and your exam bookle
 
 # Suggested Study Habits
 
-It is better to allocate 30 minutes a day towards studying and completing your homework than trying to cram it all into one session. Your brain needs time to digest information. I suggest breaking down your weekly study in multiple 30-60 sessions:
+It is better to allocate 30 to 60 minutes a day towards studying and completing your homework than trying to cram it all into one session. Your brain needs time to digest information. I suggest breaking down your weekly study in multiple 30-60 minute sessions:
 
 1. Quick review of the chapter. Get started on the homework. Do as much as you can off the top of your head. Do not worry about getting everything right or understanding everything at this point.
 2. Continue working on the homework, focusing on getting the problems you missed in the previous session and developing your understanding of concepts you struggle with.
