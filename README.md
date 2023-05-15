@@ -48,7 +48,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
   - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
 - **In-class Quizzes and Attendance (30%)**
-  - There will be a short in-class quiz every session. The questions will be given in class and the quizzes will be completed in Canvas. The in-class quizzes also count as your attendance score. You can miss up to 4 in-class quizzes without giving me an excuse. Further absences will require a valid reason.
+  - There will be a short in-class quiz every Tuesday. The questions will be given in class and the quizzes will be completed in Canvas. The in-class quizzes also count as your attendance score. You can miss up to 2 in-class quizzes without giving me an excuse. Further absences will require a valid reason. You must be in attendance in-person in order to take the quiz.
   
 - **Midterm Exam (10%)**
   - An in-person midterm exam during one of the weekly sessions.
@@ -161,19 +161,11 @@ At the end of the exam, you will turn in both your scantron and your exam bookle
 
 # Suggested Study Habits
 
-My number 1 tip is to not try to cram everything in at once. Your brain needs time to digest. Spread out your study in 30 minute to 1 hour chunks throughout the week. I suggest the following schedule:
+It is better to allocate 30 minutes a day towards studying and completing your homework than trying to cram it all into one session. Your brain needs time to digest information. I suggest breaking down your weekly study in multiple 30-60 sessions:
 
-- **Wednesday, before lecture (30 minutes to 1 hour)**
-
-  - Skim the chapter and try the end-of-chapter quiz once, quickly. Don't worry about getting everything right or about fixing the problems you got wrong. Write down some questions you had about the chapter and about the problems.
-
-- **Thursday, after lecture (30 minute to 1 hour)**
-
-  - Try the quiz again. Focus on understanding the problems. If you get 100% and feel confident in your understanding, you're done. If you still struggle after a while, write down your problem areas and come back later.
-
-- **Weekend / Monday (as needed)**
-
-  - Review the chapter as needed. Try finishing the quiz and getting 100%. If you are still struggling after two hours, write down your problem areas and email me for help.
+1. Quick review of the chapter. Get started on the homework. Do as much as you can off the top of your head. Do not worry about getting everything right or understanding everything at this point.
+2. Continue working on the homework, focusing on getting the problems you missed in the previous session and developing your understanding of concepts you struggle with.
+3. Repeat until homework is complete with a score of 100% and mastery of the chapter has been attained.
   
 # Additional Course Policies and Resources
 
