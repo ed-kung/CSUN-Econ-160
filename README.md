@@ -43,7 +43,7 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
 
 ### Grading
 
-- **Online Textbook Quizzes (35%)**
+- **Online Textbook Quizzes (30%)**
   - Due Mondays at midnight. You have unlimited attempts before the due date. You only need to score 90% to get full credit. Points above 90% are counted towards extra credit.
   - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
@@ -53,14 +53,21 @@ This is an in-person class with two 75 minute sessions a week. The standard patt
   - You can miss up to 2 in-class quizzes without giving me an excuse. Further absences will require a valid reason. 
   
 - **Midterm Exam (10%)**
-  - An in-person midterm exam during one of the weekly sessions.
+  - An in-person, on-paper midterm exam during one of the weekly sessions.
+
+- **Practice Exam (5%)**
+  - You will be required to take an online practice exam prior to the final. There will be unlimited attempts on this practice exam but it will be graded.
   
 - **Final Exam (25%)**
-  - An in-person final exam during finals week.
+  - An in-person, on-paper final exam during finals week.
 
-|  A     |  A-   |  B+   |  B    |  B-   |  C+   |  C    |  C-   |  D    |  F   |
-| ------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ---- |
-| 100-93 | 92-90 | 89-87 | 86-83 | 82-80 | 79-77 | 76-73 | 72-70 | 69-60 | 59-0 |
+- **Grading Scale**
+    
+    |  A     |  A-   |  B+   |  B    |  B-   |  C+   |  C    |  C-   |  D    |  F   |
+    | ------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ---- |
+    | 100-93 | 92-90 | 89-87 | 86-83 | 82-80 | 79-77 | 76-73 | 72-70 | 69-60 | 59-0 |
+	
+	Depending on the performance of the class, a curve may or may not be applied before assigning letter grades.
 
 
 # Tentative Schedule
