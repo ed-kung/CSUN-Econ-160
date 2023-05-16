@@ -170,11 +170,13 @@ At the end of the exam, you will turn in both your scantron and your exam bookle
 
 # Suggested Study Habits
 
-It is better to allocate 30 to 60 minutes a day towards studying and completing your homework than trying to cram it all into one session. Your brain needs time to digest information. I suggest breaking down your weekly study in multiple 30-60 minute sessions:
+It is best to allocate 30 to 60 minutes a day towards studying and homework. Don't try to cram everything into one session. Your brain needs time to digest information. Here's a suggested weekly schedule of 30-60 minute sessions:
 
 1. Quick review of the chapter. Get started on the homework. Do as much as you can off the top of your head. Do not worry about getting everything right or understanding everything at this point.
 2. Continue working on the homework, focusing on getting the problems you missed in the previous session and developing your understanding of concepts you struggle with.
-3. Repeat until homework is complete with a score of 100% and mastery of the chapter has been attained.
+3. Repeat until homework is complete with a score of 100% and mastery of the subject has been attained.
+
+As for the final exam, I suggest taking more than one practice exam. Questions can change year by year. So if you only do one practice exam, you may not encounter a wide enough range of problems.
   
 # Additional Course Policies and Resources
 
