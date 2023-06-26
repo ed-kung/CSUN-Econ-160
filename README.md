@@ -23,43 +23,49 @@
 - Dr. Edward Kung
 - edward.kung@csun.edu
 
+**About Me**: I love studying and teaching economics because it beautifully explains the world around us, from business and politics to dating and marriage. I also enjoy playing video games, and I'm learning to play guitar. I live in West LA with my wife and two kids.
+
 ### Lectures 
 
 - Section 03 TuTh 9:30am - 10:45am @ Bookstein 1123
 - Section 02 TuTh 12:30pm - 1:45pm @ Bookstein 1131
 
-### Office Hours
+### Student Drop-In Hours (a.k.a. Office Hours)
 
 - TuTh 2:00pm - 3:00pm @ Bookstein 4252
 
 ### Course Organization
 
-This is an in-person class with two 75 minute sessions a week. The standard pattern will be a lecture on Thursdays and a discussion session on Tuesdays. Attendance is required at both sessions.
+This is an in-person class with two 75 minute sessions a week. The standard pattern will be a lecture on Thursdays, a discussion session on Tuesdays, and homework due on Mondays.
 
-### Weekly Time Expectations
+### Learning is a Journey
 
-- Two 75 minute in-person sessions per week
-- 2 to 4 hours of homework and self study per week
+Before talking about grading, let me first say that learning is a journey and growth is the goal. If you finish each day knowing more than you knew before, then the day was successful. You should think of homework and tests as ways to measure your progress on the journey, not as gatekeepers barring your path. 
+
+Nevertheless, grades are a part of life and necessary to your personal and career goals. I am here to help everyone attain the grade they desire, regardless of circumstance or background. If you need help at any time along your journey, please do not hesitate to get in touch. I am here to help. 
 
 ### Grading
 
 - **Online Textbook Quizzes (30%)**
-  - Due Mondays at midnight. You have unlimited attempts before the due date. You only need to score 90% to get full credit. Points above 90% are counted towards extra credit.
+  - Due Mondays at midnight. You have unlimited attempts before the due date.
   - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
 - **In-class Quizzes and Attendance (30%)**
-  - There will be a short in-class quiz every Tuesday. The questions will be given in class and the quizzes will be completed in Canvas. 
-  - The in-class quizzes will also count as your attendance score. You must be in-class in-person in order to get credit for the quiz. This will be checked.
-  - You can miss up to 2 in-class quizzes without giving me an excuse. Further absences will require a valid reason. 
+  - There will be a short (5-10 minutes) in-class quiz every Tuesday and sometimes on Thursdays.
+  - The quizzes are administered on Canvas so bring a device capable of internet access.
+  - Attendance will be checked on quiz dates. Life sometimes gets in the way, so you can miss up to 2 in-class quizzes for any reason. 
+  - Further absences require a [valid reason](#late-and-missing-assignment-policy).
   
 - **Midterm Exam (10%)**
-  - An in-person, on-paper midterm exam during one of the weekly sessions.
+  - An in-person, on-paper, multiple choice exam during one of the weekly sessions.
+  - 90% will be considered full credit. Points above 90% will be counted as extra credit.
 
 - **Practice Exam (5%)**
   - You will be required to take an online practice exam prior to the final. There will be unlimited attempts on this practice exam but it will be graded.
   
 - **Final Exam (25%)**
-  - An in-person, on-paper final exam during finals week.
+  - An in-person, on-paper, multiple choice exam during finals week.
+  - 90% will be considered full credit. Points above 90% will be counted as extra credit.
 
 - **Grading Scale**
     
@@ -170,7 +176,7 @@ At the end of the exam, you will turn in both your scantron and your exam bookle
 
 # Suggested Study Habits
 
-It is best to allocate 30 to 60 minutes a day towards studying and homework. Don't try to cram everything into one session. Your brain needs time to digest information. Here's a suggested weekly schedule of 30-60 minute sessions:
+It is best to allocate 30 to 60 minutes a day towards studying and homework. Don't try to cram everything into one session. Our brains need time to digest information (I learned this from practicing guitar). Here's a suggested weekly schedule of 30-60 minute sessions:
 
 1. Quick review of the chapter. Get started on the homework. Do as much as you can off the top of your head. Do not worry about getting everything right or understanding everything at this point.
 2. Continue working on the homework, focusing on getting the problems you missed in the previous session and developing your understanding of concepts you struggle with.
@@ -182,11 +188,13 @@ As for the final exam, I suggest taking more than one practice exam. Questions c
 
 ### Communications Policy
 
-My preferred form of communication is in-person after class or at office hours, or by email. If you email me and I do not respond within 24 hours, do not hesitate to re-send the email. Sometimes emails get lost in the shuffle.
+My preferred form of communication is in-person after class or at drop-in hours, or by email. If you email me and I do not respond within 24 hours, do not hesitate to re-send the email. Sometimes emails get lost in the shuffle.
 
 ### Late and Missing Assignment Policy
 
 Requests for late submissions or extensions, beyond what is allowed in the syllabus, must be submitted by email with accompanying documentation. Only unanticipated family or medical emergencies, or other extraordinary events, will be considered valid reasons. Events that could reasonably have been anticipated, such as heavy academic workload or busy work schedule, will not be accepted as valid reasons.
+
+Special consideration may be given to students with caregiving responsibilities at home (children, disabled family members, etc.). Please get in touch with me if you need an extension and have caregiving responsibilities.
 
 ### Academic Integrity
 
@@ -195,6 +203,8 @@ By taking this course, you certify that all work is your own. Plagiarism is not 
 ### Minimum Attempt Policy
 
 You must at least attempt to answer every question on an assignment. If you skip a question without attempting an answer, you may receive a grade of zero for the entire assignment.
+
+Why do I have a minimum attempt policy? Because demonstrating effort is important, especially in the workplace. Not even attempting an assignment is worse than attempting it and getting it wrong. I want to encourage all students to at least make an attempt at all tasks. As Kobe Bryant said, "You miss 100% of the shots you don't take."
 
 ### Students with Disabilities
 
