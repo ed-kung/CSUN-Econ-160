@@ -183,6 +183,13 @@ It is best to allocate 30 to 60 minutes a day towards studying and homework. Don
 3. Repeat until homework is complete with a score of 100% and mastery of the subject has been attained.
 
 As for the final exam, I suggest taking more than one practice exam. Questions can change year by year. So if you only do one practice exam, you may not encounter a wide enough range of problems.
+
+### Getting Help
+
+The Business Honors Program at CSUN offers tutoring for Econ 160: https://www.csun.edu/nazarian-legacy-site/business-honors-program/tutoring.  Do not hesitate to seek tutoring resources, they are a normal part of the college experience.
+
+However, if you need help I encourage you to come to my drop-in hours first, as I am usually able to explain things more clearly than a tutor.
+
   
 # Additional Course Policies and Resources
 
