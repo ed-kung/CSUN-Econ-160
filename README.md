@@ -98,7 +98,8 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
 
 ### Final Exam Schedule
 
-- TBD
+- Section 02: Thursday 12/14, 12:45pm - 2:45pm @ BH 1131
+- Section 03: Tuesday 12/12, 8:00am - 10:00am @ BH 1123
 
 # Course Description
 
