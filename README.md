@@ -55,15 +55,7 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
   - Life sometimes gets in the way, so you can miss up to 2 in-class quizzes for any reason. 
   - Further absences require a [valid reason](#late-and-missing-assignment-policy).
   
-- **Professionalism (5%) **
-  - You are expected to show up to class on time, leave class on time, pay attention in class, and participate when called upon. In general, I am quite lenient and flexible, understanding that people are busy and have many things going on in life. However, repeated instances of the following unprofessional behaviors will cause you to lose points:
-      - Repeatedly showing up late
-      - Repeatedly leaving class early
-      - Repeatedly spending time on a device instead of paying attention in class
-      - Repeated non-attendance
-  - If you have life circumstances that would prevent you from fully participating in class, you should let me know in advance.
-  
-- **Midterm Exam 1 (10%) **
+- **Midterm Exam 1 (10%)**
   - An in-person, on-paper, multiple choice exam during one of the weekly sessions.
   - 90% will be considered full credit. Points above 90% will be counted as extra credit.
   
@@ -78,6 +70,14 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
   - An in-person, on-paper, multiple choice exam during finals week.
   - 90% will be considered full credit. Points above 90% will be counted as extra credit.
 
+- **Professionalism (5%)**
+  - You are expected to show up to class on time, leave class on time, pay attention in class, and participate when called upon. In general, I am quite lenient and flexible, understanding that people are busy and have many things going on in life. However, repeated instances of the following unprofessional behaviors will cause you to lose points:
+      - Repeatedly showing up late
+      - Repeatedly leaving class early
+      - Repeatedly spending time on a device instead of paying attention in class
+      - Repeated non-attendance
+  - If you have life circumstances that would prevent you from fully participating in class, you should let me know in advance.
+  
 - **Grading Scale**
     
     |  A     |  A-   |  B+   |  B    |  B-   |  C+   |  C    |  C-   |  D    |  F   |
@@ -93,8 +93,8 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
 | ----- | ----------- | ---------------------------------------- | ------------------------------------ | ------------------ |
 |     1 | 1/22-1/26   | Ch.1: Introduction                       | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
 |     2 | 1/29-2/2    | Ch.3: Specialization and Trade           | Discussion Session                   | Ch.3 Quiz          |
-|     3 | 2/5-2/9     | Ch.4: Supply and Demand                  | Ch.5: Using Supply and Demand        | Ch.4 & Ch.5 Quiz   |
-|     4 | 2/12-2/16   | Discussion Session                       | Ch.6: Elasticity                     | Ch.6 Quiz          |
+|     3 | 2/5-2/9     | Ch.4: Supply and Demand                  | Discussion Session                   | Ch.4 Quiz          |
+|     4 | 2/12-2/16   | Ch.5: Using Supply and Demand            | Ch.6: Elasticity                     | Ch.5 & Ch.6 Quiz   |
 |     5 | 2/19-2/23   | Review Session                           | Midterm 1                            | None               |
 |     6 | 2/26-3/1    | Ch.7: Consumer and Producer Surplus      | Discussion Session                   | Ch.7 Quiz          |
 |     7 | 3/4-3/8     | Ch.8: Taxation                           | Discussion Session                   | Ch.8 Quiz          |
