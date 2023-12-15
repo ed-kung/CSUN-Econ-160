@@ -2,7 +2,7 @@
 
 ![Logo](assets/images/logo.jpeg)
 
-# Fall 2023 Syllabus
+# Spring 2024 Syllabus
 
 # Table of Contents
 
@@ -27,16 +27,15 @@
 
 ### Lectures 
 
-- Section 03 TuTh 9:30am - 10:45am @ Bookstein 1123
-- Section 02 TuTh 12:30pm - 1:45pm @ Bookstein 1131
+- TuTh 12:30pm - 1:45pm @ Johnson Auditorium
 
 ### Student Drop-In Hours (a.k.a. Office Hours)
 
-- TuTh 2:00pm - 3:00pm @ Bookstein 4252
+- TuTh 1:50pm - 2:50pm @ Bookstein 4252
 
 ### Course Organization
 
-This is an in-person class with two 75 minute sessions a week. The standard pattern will be a lecture on Thursdays, a discussion session on Tuesdays, and homework due on Mondays.
+This is an in-person class with two 75 minute sessions a week with homeworks due on Mondays at midnight.
 
 ### Learning is a Journey
 
@@ -50,13 +49,25 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
   - Due Mondays at midnight. You have unlimited attempts before the due date.
   - Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
 
-- **In-class Quizzes and Attendance (30%)**
-  - There will be a short (5-10 minutes) in-class quiz every Tuesday and sometimes on Thursdays.
+- **In-class Quizzes (10%)**
+  - I will occassionally give a short (5-10 minutes) in-class quiz.
   - The quizzes are administered on Canvas so bring a device capable of internet access.
-  - Attendance will be checked on quiz dates. Life sometimes gets in the way, so you can miss up to 2 in-class quizzes for any reason. 
+  - Life sometimes gets in the way, so you can miss up to 2 in-class quizzes for any reason. 
   - Further absences require a [valid reason](#late-and-missing-assignment-policy).
   
-- **Midterm Exam (10%)**
+- **Professionalism (5%) **
+  - You are expected to show up to class on time, leave class on time, pay attention in class, and participate when called upon. In general, I am quite lenient and flexible, understanding that people are busy and have many things going on in life. However, repeated instances of the following unprofessional behaviors will cause you to lose points:
+      - Repeatedly showing up late
+      - Repeatedly leaving class early
+      - Repeatedly spending time on a device instead of paying attention in class
+      - Repeated non-attendance
+  - If you have life circumstances that would prevent you from fully participating in class, you should let me know in advance.
+  
+- **Midterm Exam 1 (10%) **
+  - An in-person, on-paper, multiple choice exam during one of the weekly sessions.
+  - 90% will be considered full credit. Points above 90% will be counted as extra credit.
+  
+- **Midterm Exam 2 (15%)**
   - An in-person, on-paper, multiple choice exam during one of the weekly sessions.
   - 90% will be considered full credit. Points above 90% will be counted as extra credit.
 
@@ -78,28 +89,28 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
 
 # Tentative Schedule
 
-| Week  | Dates       | Tuesday                  | Thursday                             | Homework (due Mon) |
-| ----- | ----------- | ------------------------ | ------------------------------------ | ------------------ |
-|     1 | 8/28-9/1    | Ch.1: Introduction       | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
-|     2 | 9/4-9/8     | Ch.2 Discussion          | Ch.3: Specialization and Trade       | Ch.3 Quiz          |
-|     3 | 9/11-9/15   | Ch.3 Discussion          | Ch.4: Supply and Demand              | Ch.4 Quiz          |
-|     4 | 9/18-9/22   | Ch.4 Discussion          | Ch.5: Using Supply and Demand        | Ch.5 Quiz          |
-|     5 | 9/25-9/29   | Ch.5 Discussion          | Ch.6: Elasticity                     | Ch.6 Quiz          |
-|     6 | 10/2-10/6   | Ch.6 Discussion          | Ch.7: Consumer and Producer Surplus  | Ch.7 Quiz          |
-|     7 | 10/9-10/13  | Ch.7 Discussion          | Ch.8: Taxation                       | Ch.8 Quiz          |
-|     8 | 10/16-10/20 | Ch.8 Discussion          | Ch.9: International Trade            | Ch.9 Quiz          |
-|     9 | 10/23-10/27 | Ch.9 Discussion          | Ch.10: Public Goods                  | Ch.10 Quiz         |
-|    10 | 10/30-11/3  | Midterm Exam             | Ch.11: Externalities                 | Ch.11 Quiz         |
-|    11 | 11/6-11/10  | Ch.11 Discussion         | Ch.12: Costs of Production           | Ch.12 Quiz         |
-|    12 | 11/13-11/17 | Ch.12 Discussion         | Ch.13: Perfectly Competitive Markets | Ch.13 Quiz         |
-|    13 | 11/20-11/24 | Ch.13 Discussion         | *THANKSGIVING BREAK*                 |                    |
-|    14 | 11/27-12/1  | Ch.14: Monopoly          | Ch.15 Monopolistic Competition       | Ch.14 & Ch.15 Quiz |
-|    15 | 12/4-12/8   | Ch.14 & Ch.15 Discussion | Final Review                         | Practice Exam      |
+| Week  | Dates       | Tuesday                                  | Thursday                             | Homework (due Mon) |
+| ----- | ----------- | ---------------------------------------- | ------------------------------------ | ------------------ |
+|     1 | 1/22-1/26   | Ch.1: Introduction                       | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
+|     2 | 1/29-2/2    | Ch.3: Specialization and Trade           | Discussion Session                   | Ch.3 Quiz          |
+|     3 | 2/5-2/9     | Ch.4: Supply and Demand                  | Ch.5: Using Supply and Demand        | Ch.4 & Ch.5 Quiz   |
+|     4 | 2/12-2/16   | Discussion Session                       | Ch.6: Elasticity                     | Ch.6 Quiz          |
+|     5 | 2/19-2/23   | Review Session                           | Midterm 1                            | None               |
+|     6 | 2/26-3/1    | Ch.7: Consumer and Producer Surplus      | Discussion Session                   | Ch.7 Quiz          |
+|     7 | 3/4-3/8     | Ch.8: Taxation                           | Discussion Session                   | Ch.8 Quiz          |
+|     8 | 3/11-3/15   | Ch.9: International Trade                | Discussion Session                   | Ch.9 Quiz          |
+|     9 | 3/18-3/22   | *Spring Break*                           | *Spring Break*                       | None               |
+|    10 | 3/25-3/29   | Ch.10: Public Goods and Common Resources | Ch.11: Externalities                 | Ch.10 & Ch.11 Quiz |
+|    11 | 4/1-4/5     | Review Session                           | Midterm 2                            | None               |
+|    12 | 4/8-4/12    | Ch.12: The Costs of Production           | Discussion Session                   | Ch.12 Quiz         |
+|    13 | 4/15-4/19   | Ch.13: Perfectly Competitive Markets     | Discussion Session                   | Ch.13 Quiz         |
+|    14 | 4/22-4/26   | Ch.14: Monopoly                          | Ch.15: Monopolistic Competition      | Ch.14 & Ch.15 Quiz |
+|    15 | 4/29-5/3    | Discussion Session                       | Ch.16: Game Theory                   | Ch.16 Quiz         |
+|    16 | 5/6-5/10    | Discussion Session                       | Review Session                       | Practice Exam      |
 
 ### Final Exam Schedule
 
-- Section 02: Thursday 12/14, 12:45pm - 2:45pm @ BH 1131
-- Section 03: Tuesday 12/12, 8:00am - 10:00am @ BH 1123
+- Thursday 5/16, 12:45pm - 2:45pm @ Johnson Auditorium
 
 # Course Description
 
@@ -135,10 +146,9 @@ By the end of the course, you will be able to:
 
 The required textbook is *Principles of Microeconomics* by Edward Kung (ISBN: 9781644967027). It is a digital textbook that can be purchased from [Great River Learning](https://www.grlcontent.com). Click on "purchase" and enter your institution (California State University, Northridge) and select "Principles of Microeconomics". Make sure you select the correct section! You should be enrolled in one of the two following sections:
 
-- Fall 2023: Kung: Econ 160-02
-- Fall 2023: Kung: Econ 160-03
+- Spring 2024: Kung: Econ 160-01
 
-You can also purchase access cards from the CSUN Bookstore.
+You can also purchase access cards from the CSUN Bookstore, but I think it's cheaper to buy directly from the website.
 
 ### Calculator
 
