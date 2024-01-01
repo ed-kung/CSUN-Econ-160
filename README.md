@@ -37,6 +37,16 @@
 
 This is an in-person class with two 75 minute sessions a week with homeworks due on Mondays at midnight.
 
+### Bring to Class
+
+Each session you should bring the following to class:
+
+- A printout or digital copy of the slides for that session (will be posted each week on Canvas)
+- Something to write with
+- Something to do calculations with (e.g. a computer or a calculator)
+- A device capable of accessing Canvas from the internet
+- A positive attitude towards learning
+
 ### Learning is a Journey
 
 Before talking about grading, let me first say that learning is a journey and growth is the goal. If you finish each day knowing more than you knew before, then the day was successful. You should think of homework and tests as ways to measure your progress on the journey, not as gatekeepers barring your path. 
