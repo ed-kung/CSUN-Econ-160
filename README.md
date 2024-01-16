@@ -101,22 +101,24 @@ Nevertheless, grades are a part of life and necessary to your personal and caree
 
 | Week  | Dates       | Tuesday                                  | Thursday                             | Homework (due Mon) |
 | ----- | ----------- | ---------------------------------------- | ------------------------------------ | ------------------ |
-|     1 | 1/22-1/26   | Ch.1: Introduction                       | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
-|     2 | 1/29-2/2    | Ch.3: Specialization and Trade           | Discussion Session                   | Ch.3 Quiz          |
-|     3 | 2/5-2/9     | Ch.4: Supply and Demand                  | Discussion Session                   | Ch.4 Quiz          |
-|     4 | 2/12-2/16   | Ch.5: Using Supply and Demand            | Ch.6: Elasticity                     | Ch.5 & Ch.6 Quiz   |
-|     5 | 2/19-2/23   | Review Session                           | Midterm 1                            | None               |
-|     6 | 2/26-3/1    | Ch.7: Consumer and Producer Surplus      | Discussion Session                   | Ch.7 Quiz          |
-|     7 | 3/4-3/8     | Ch.8: Taxation                           | Discussion Session                   | Ch.8 Quiz          |
-|     8 | 3/11-3/15   | Ch.9: International Trade                | Discussion Session                   | Ch.9 Quiz          |
+|     1 | 1/22-1/26   | *NO CLASS DUE TO ON-CAMPUS DISRUPTION FROM STRIKE* | *NO CLASS DUE TO ON-CAMPUS DISRUPTION FROM STRIKE* | None |
+|     2 | 1/29-2/2    | Ch.1: Introduction                       | Ch.2: Decisions, Decisions           | Ch.2 Quiz          |
+|     3 | 2/5-2/9     | Ch.3: Specialization and Trade           | Discussion Session                   | Ch.3 Quiz          |
+|     4 | 2/12-2/16   | Ch.4: Supply and Demand                  | Discussion Session                   | Ch.4 Quiz          |
+|     5 | 2/19-2/23   | Ch.5: Using Supply and Demand            | Ch.6: Elasticity                     | Ch.5 & Ch.6 Quiz   |
+|     6 | 2/26-3/1    | Review Session                           | Midterm 1                            | None               |
+|     7 | 3/4-3/8     | Ch.7: Consumer and Producer Surplus      | Discussion Session                   | Ch.7 Quiz          |
+|     8 | 3/11-3/15   | Ch.8: Taxation                           | Discussion Session                   | Ch.8 Quiz          |
 |     9 | 3/18-3/22   | *Spring Break*                           | *Spring Break*                       | None               |
-|    10 | 3/25-3/29   | Ch.10: Public Goods and Common Resources | Ch.11: Externalities                 | Ch.10 & Ch.11 Quiz |
-|    11 | 4/1-4/5     | Review Session                           | Midterm 2                            | None               |
-|    12 | 4/8-4/12    | Ch.12: The Costs of Production           | Discussion Session                   | Ch.12 Quiz         |
-|    13 | 4/15-4/19   | Ch.13: Perfectly Competitive Markets     | Discussion Session                   | Ch.13 Quiz         |
-|    14 | 4/22-4/26   | Ch.14: Monopoly                          | Ch.15: Monopolistic Competition      | Ch.14 & Ch.15 Quiz |
-|    15 | 4/29-5/3    | Discussion Session                       | Ch.16: Game Theory                   | Ch.16 Quiz         |
+|    10 | 3/25-3/29   | Ch.9: International Trade                | Discussion Session                   | Ch.9 Quiz          |
+|    11 | 4/1-4/5     | Ch.10: Public Goods and Common Resources | Ch.11: Externalities                 | Ch.10 & Ch.11 Quiz |
+|    12 | 4/8-4/12    | Review Session                           | Midterm 2                            | None               |
+|    13 | 4/15-4/19   | Ch.12: The Costs of Production           | Discussion Session                   | Ch.12 Quiz         |
+|    14 | 4/22-4/26   | Ch.13: Perfectly Competitive Markets     | Discussion Session                   | Ch.13 Quiz         |
+|    15 | 4/29-5/3    | Ch.14: Monopoly                          | Ch.15: Monopolistic Competition      | Ch.14 & Ch.15 Quiz |
 |    16 | 5/6-5/10    | Discussion Session                       | Review Session                       | Practice Exam      |
+<!--|    16 | 5/6-5/10    | Discussion Session                       | Ch.16: Game Theory                   | Ch.16 Quiz         |-->
+<!--|    17 | 5/6-5/10    | Discussion Session                       | Review Session                       | Practice Exam      |-->
 
 ### Final Exam Schedule
 
