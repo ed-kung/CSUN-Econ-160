@@ -1,0 +1,5 @@
+name = "pyscript example"
+description = "A simple pyscript example"
+packages = ["numpy", "pandas"]
+
+[files]
