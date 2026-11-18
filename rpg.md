@@ -8,7 +8,7 @@ python: pyscript
 # Random Problem Generator
 
 <dialog id="loading">
-<p><img src="/CSUN-Econ-310/assets/images/loading-wheel.gif" width="100"></p>
+<p><img src="/CSUN-Econ-160/assets/images/loading-wheel.gif" width="100"></p>
 </dialog>
 
 <label for="dropdown">Generate problem from chapter:</label>
