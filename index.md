@@ -47,9 +47,13 @@ This course meets for two lectures a week, in person.
     
 	Everyone starts with full credit. Attendance will be checked randomly or if the classroom looks half empty. Those not present when attendance is checked will lose 1 attendance point (out of 10 total).
 
-- **In-Class Quizzes (20%)**
+- **In-Class Quizzes (10%)**
 
     I will occassionally give a short (5-10 minutes) in-class quiz. The quizzes are administered on Canvas so bring a device capable of internet access. 
+	
+- **Textbook Problems (10%)**
+
+    Due Fridays at midnight. You have unlimited attempts before the due date. Submissions after the due date will be accepted but will receive a maximum of 60% credit. Late submissions are due by the last day of class.
     
 - **Midterm Exams (40%)**
 
@@ -57,7 +61,7 @@ This course meets for two lectures a week, in person.
 	
 - **Final Exam (30%)**
 
-    The final exam will be worth 30% of your grade. It will be a multiple choice, in-person exam. If you score better on your final exam than you do on the in-class quizzes, your quiz score will be replaced by your final exam score.
+    The final exam will be worth 30% of your grade. It will be a multiple choice, in-person exam. If you score better on your final exam than you do on the in-class quizzes and textbook problems, your quiz and textbook scores will be replaced by your final exam score.
 	
 - **Participation Extra Credit (5%)**
 
@@ -131,7 +135,7 @@ By the end of the course, you will be able to:
 
 ## Course Materials
 
-**Textbook (Optional)**
+**Textbook (Required)**
 
 <img src="assets/images/logo.jpeg" width="120">
 
