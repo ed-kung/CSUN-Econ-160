@@ -114,6 +114,7 @@ exclude:
   - node_modules
   - vendor
   - problems
+  - tests
   - .venv
   - "**/__pycache__"
 

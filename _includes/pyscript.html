@@ -1,0 +1,13 @@
+<!-- PyScript (same release as the Econ 310 site) -->
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+<!-- Loading splash while Python starts up -->
+<style>
+    #loading { outline: none; border: none; background: transparent }
+</style>
+<script type="module">
+    const loading = document.getElementById('loading');
+    addEventListener('py:ready', () => loading.close());
+    loading.showModal();
+</script>

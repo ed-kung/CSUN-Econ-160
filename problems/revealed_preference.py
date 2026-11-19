@@ -8,6 +8,10 @@ from econtools.problems.base import MCQ, GenericProblem, generate_distractors
 class RevealedPreference(GenericProblem):
     default_params = {"p1": 2, "p2": 3, "x1A": 4, "x2A": 2, "x1B": 2, "x2B": 3}
 
+    # Random Problem Generator (see problems/_rpg.py)
+    rpg_topic = "revealed-preference"
+    rpg_title = "Revealed Preference"
+
     def build(self, rng):
         p = self.params
         cost_A = p["p1"] * p["x1A"] + p["p2"] * p["x2A"]
