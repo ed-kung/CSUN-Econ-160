@@ -107,4 +107,14 @@ callouts:
 # Enable mathjax
 math: mathjax
 
+# Keep Python problem-generation code and environments out of the built site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - problems
+  - .venv
+  - "**/__pycache__"
+
 
