@@ -27,8 +27,8 @@ class RevealedPreference(GenericProblem):
     }
 
     # Random Problem Generator (see problems/_rpg.py)
-    rpg_topic = "revealed-preference"
-    rpg_title = "Revealed Preference"
+    rpg_topic = "decisions-decisions"
+    rpg_title = "Decisions Decisions"
 
     def build(self, rng):
         p = self.params
