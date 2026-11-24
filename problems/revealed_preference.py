@@ -84,6 +84,15 @@ class RevealedPreference(GenericProblem):
             online_setup += "<p>" + online_table.htmlify() + "</p>"
             online_setup += f"<p>Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
 
+        elif p["type"] == "car":
+            setup = f"{p['name']} is deciding what car to buy. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.\n\n"
+            setup += table.texify() + "\n\n"
+            setup += f"Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
+
+            online_setup = f"<p>{p['name']} is deciding what car to buy. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.</p>"
+            online_setup += "<p>" + online_table.htmlify() + "</p>"
+            online_setup += f"<p>Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
+
         # --- setups ---
         self.add_setup(setup=setup, online_setup=online_setup)
 
@@ -125,8 +134,8 @@ class RevealedPreference(GenericProblem):
             ['go to the beach', (40, 120), (10, 40)],
             ['watch a movie', (30, 100), (10, 40)]
         ]
-        # yield 200 examples
-        for i in range(200):
+        # yield 100 examples
+        for i in range(100):
             (name, pronouns) = names[rng.choice(len(names))]
             my_choices = [choices[j] for j in rng.choice(len(choices), size=4, replace=False)]
             masked_choice_idx = int(rng.choice(4))
@@ -160,8 +169,8 @@ class RevealedPreference(GenericProblem):
             ['pasta', (5, 20), (4, 10)],
             ['burrito', (5, 20), (4, 10)]
         ]
-        # yield 200 examples
-        for i in range(200):
+        # yield 100 examples
+        for i in range(100):
             (name, pronouns) = names[rng.choice(len(names))]
             my_choices = [choices[j] for j in rng.choice(len(choices), size=4, replace=False)]
             masked_choice_idx = int(rng.choice(4))
@@ -170,6 +179,45 @@ class RevealedPreference(GenericProblem):
                 options.append(choice[0])
                 benefits.append(int(rng.integers(choice[1][0], choice[1][1]+1)))
                 costs.append(int(rng.integers(choice[2][0], choice[2][1]+1)))
+            yield {
+                'type': type,
+                'name': name,
+                'pronouns': pronouns,
+                'options': options,
+                'benefits': benefits,
+                'costs': costs,
+                'masked_choice_idx': masked_choice_idx
+            }
+
+        # ---- Car ----
+        type = 'car'
+        names = [
+            ('Bob', ['he', 'his']),
+            ('Carol', ['she', 'her'])
+        ]
+        choices = [
+            # [name, (min_benefit, max_benefit), (min_cost, max_cost)]
+            ['Toyota', (50, 120), (25, 70)],
+            ['Honda', (50, 120), (25, 70)],
+            ['Ford', (50, 120), (25, 70)],
+            ['Chevrolet', (50, 120), (25, 70)],
+            ['Nissan', (50, 120), (25, 70)],
+            ['Mazda', (50, 120), (25, 70)],
+            ['Subaru', (50, 120), (25, 70)],
+            ['Volkswagen', (50, 120), (25, 70)],
+            ['Audi', (50, 120), (25, 70)],
+            ['BMW', (50, 120), (25, 70)]
+        ]
+        # yield 100 examples
+        for i in range(100):
+            (name, pronouns) = names[rng.choice(len(names))]
+            my_choices = [choices[j] for j in rng.choice(len(choices), size=4, replace=False)]
+            masked_choice_idx = int(rng.choice(4))
+            options, benefits, costs = [], [], []
+            for choice in my_choices:
+                options.append(choice[0])
+                benefits.append(1000*int(rng.integers(choice[1][0], choice[1][1]+1)))
+                costs.append(1000*int(rng.integers(choice[2][0], choice[2][1]+1)))
             yield {
                 'type': type,
                 'name': name,
