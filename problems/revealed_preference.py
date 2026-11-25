@@ -1,17 +1,6 @@
 from econtools.problems.base import MCQ, GenericProblem, generate_distractors
+from econtools.math.scaled import Scaled
 from econtools.tables.tables import Table
-
-
-def dollars(x, online=False):
-    """Format a dollar amount with thousands separators: $1,234 (or $1,234.50 if fractional).
-
-    LaTeX needs the sign escaped (\\$). Online, it is written as the HTML entity &#36;
-    so that problems/_rpg.to_mathjax doesn't read a pair of dollar signs as inline math.
-    """
-    x = float(x)
-    num = f"{abs(x):,.0f}" if x.is_integer() else f"{abs(x):,.2f}"
-    sign = "-" if x < 0 else ""
-    return sign + ("&#36;" if online else "\\$") + num
 
 
 class RevealedPreference(GenericProblem):
@@ -23,7 +12,9 @@ class RevealedPreference(GenericProblem):
         "options": ["stay home", "run errands", "visit the museum", "go to the baseball game"],
         "benefits": [50, 40, 80, 120],
         "costs": [0, 10, 15, 40],
-        "masked_choice_idx": 0
+        "masked_choice_idx": 0,
+        # benefits and costs are grid values; real dollar amounts are grid * scale
+        "scale": 1
     }
 
     # Random Problem Generator (see problems/_rpg.py)
@@ -36,10 +27,14 @@ class RevealedPreference(GenericProblem):
         options = [str(x) for x in p['options']]
         benefits = [int(x) for x in p['benefits']]
         costs = [int(x) for x in p['costs']]
+        scale = int(p['scale'])
+
         masked = [ (int(p['masked_choice_idx']) + 1, 1) ]  # +1 for header row
         header = [["Option", "Benefit", "Cost"]]
-        table = Table(header + [[o, dollars(b), dollars(c)] for o, b, c in zip(options, benefits, costs)], masked=masked)
-        online_table = Table(header + [[o, dollars(b, online=True), dollars(c, online=True)] for o, b, c in zip(options, benefits, costs)], masked=masked)
+        # human readable dollar amounts via Scaled ($50, $120k); LaTeX needs the sign escaped
+        rows = [[o, str(Scaled(b, scale, '$')), str(Scaled(c, scale, '$'))] for o, b, c in zip(options, benefits, costs)]
+        table = Table(header + [[cell.replace('$', '\\$') for cell in row] for row in rows], masked=masked)
+        online_table = Table(header + rows, masked=masked)
         utils = [b - c for b, c in zip(benefits, costs)]
         utils_ranked_idx = sorted(range(len(utils)), key=lambda i: utils[i], reverse=True)
         utils_ranked = [utils[i] for i in utils_ranked_idx]
@@ -104,11 +99,10 @@ class RevealedPreference(GenericProblem):
         self.add_question(q, a, mcq=MCQ(q, answers, solution=ans_idx, shuffle=False, horz=True, rng=rng))
 
         q = "Fill in the second part of the blank."
-        # sort numerically before formatting (sorting the strings would put "$1,000" before "$900")
-        values = sorted(generate_distractors(ans_2, K=4, rng=rng, must_positive=True))
-        answers = [dollars(v) for v in values]
-        mcq = MCQ(q, answers, solution=values.index(ans_2), shuffle=False, rng=rng)
-        self.add_question(q, dollars(ans_2), online_answer=dollars(ans_2, online=True), mcq=mcq)
+        answers = generate_distractors(ans_2, K=4, rng=rng, must_positive=True)
+        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, rng=rng, scale=scale, numtype='$')
+        ans_2_str = str(Scaled(ans_2, scale, '$'))
+        self.add_question(q, ans_2_str.replace('$', '\\$'), online_answer=ans_2_str, mcq=mcq)
 
     def check_solution(self):
         # check no ties in utils_ranked
@@ -151,7 +145,8 @@ class RevealedPreference(GenericProblem):
                 'options': options,
                 'benefits': benefits,
                 'costs': costs,
-                'masked_choice_idx': masked_choice_idx
+                'masked_choice_idx': masked_choice_idx,
+                'scale': 1
             }
 
         # ---- Lunch ----
@@ -186,7 +181,8 @@ class RevealedPreference(GenericProblem):
                 'options': options,
                 'benefits': benefits,
                 'costs': costs,
-                'masked_choice_idx': masked_choice_idx
+                'masked_choice_idx': masked_choice_idx,
+                'scale': 1
             }
 
         # ---- Car ----
@@ -196,7 +192,7 @@ class RevealedPreference(GenericProblem):
             ('Carol', ['she', 'her'])
         ]
         choices = [
-            # [name, (min_benefit, max_benefit), (min_cost, max_cost)]
+            # [name, (min_benefit, max_benefit), (min_cost, max_cost)], in thousands of dollars (scale=1000)
             ['Toyota', (50, 120), (25, 70)],
             ['Honda', (50, 120), (25, 70)],
             ['Ford', (50, 120), (25, 70)],
@@ -216,8 +212,8 @@ class RevealedPreference(GenericProblem):
             options, benefits, costs = [], [], []
             for choice in my_choices:
                 options.append(choice[0])
-                benefits.append(1000*int(rng.integers(choice[1][0], choice[1][1]+1)))
-                costs.append(1000*int(rng.integers(choice[2][0], choice[2][1]+1)))
+                benefits.append(int(rng.integers(choice[1][0], choice[1][1]+1)))
+                costs.append(int(rng.integers(choice[2][0], choice[2][1]+1)))
             yield {
                 'type': type,
                 'name': name,
@@ -225,5 +221,6 @@ class RevealedPreference(GenericProblem):
                 'options': options,
                 'benefits': benefits,
                 'costs': costs,
-                'masked_choice_idx': masked_choice_idx
+                'masked_choice_idx': masked_choice_idx,
+                'scale': 1000
             }
