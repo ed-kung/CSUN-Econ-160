@@ -100,7 +100,7 @@ class RevealedPreference(GenericProblem):
 
         q = "Fill in the second part of the blank."
         answers = generate_distractors(ans_2, K=4, rng=rng, must_positive=True)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, rng=rng, scale=scale, numtype='$')
+        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, rng=rng, scale=scale, numtype='$', horz=True)
         ans_2_str = str(Scaled(ans_2, scale, '$'))
         self.add_question(q, ans_2_str.replace('$', '\\$'), online_answer=ans_2_str, mcq=mcq)
 

@@ -25,6 +25,8 @@ shortfall is not filled from other labels, so the mix stays close to the target.
 Several classes may share a topic; their samples are pooled. A class can override
 how a problem is shown online by defining `rpg_entries(self)`, returning a list of
 {"setup": html, "solution": html} dicts (default: formats.get_online_format(self)).
+The online strings are written to the JSON as-is: each problem is responsible for
+providing properly formatted online (HTML/MathJax) setups and answers.
 
 build_rpg() rebuilds everything from the saved valid-params files:
   - assets/data/<slug>-practice.json   one per topic
@@ -36,7 +38,6 @@ Sampling is seeded by each class's `seed`, so unchanged problems give unchanged 
 import glob
 import json
 import os
-import re
 import tomllib
 
 import numpy as np
@@ -61,14 +62,6 @@ def _json_filename(slug):
 
 def _title_from_slug(slug):
     return slug.replace("-", " ").replace("_", " ").title()
-
-
-# Single-$ inline math (not $$, not \$) -> \( ... \), MathJax's default inline delimiter.
-_INLINE_DOLLAR = re.compile(r"(?<![\\$])\$(?!\$)(.+?)(?<![\\$])\$(?!\$)", re.DOTALL)
-
-
-def to_mathjax(html):
-    return _INLINE_DOLLAR.sub(r"\\(\1\\)", html)
 
 
 def collect_topics(registry):
@@ -143,7 +136,7 @@ def sample_entries(cls, data_dir=None):
             new = prob.rpg_entries()
         else:
             new = [formats.get_online_format(prob)]
-        entries.extend({k: to_mathjax(v) for k, v in e.items()} for e in new)
+        entries.extend(new)
     return entries
 
 
