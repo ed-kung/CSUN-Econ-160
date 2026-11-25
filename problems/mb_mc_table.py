@@ -12,7 +12,7 @@ class MBMCTable(GenericProblem):
 
     # Random Problem Generator (see problems/_rpg.py)
     rpg_topic = "decisions-decisions"
-    rpg_title = "Decisions Decisions"
+    rpg_title = "2. Decisions Decisions"
 
     def build(self, rng):
         p = self.params
