@@ -1,8 +1,7 @@
 import numpy as np
 from econtools.econ.competitive_markets import LinearDemand, LinearSupply, LinearMarket
-from econtools.math.scaled import Scaled
 from econtools.graphs.primitives import Point, Line
-from econtools.problems.base import MCQ, GenericProblem, generate_distractors
+from econtools.problems.base import GenericProblem
 from econtools.graphs.axis import Axis
 
 class SupplyDemand(GenericProblem):
@@ -42,8 +41,8 @@ class SupplyDemand(GenericProblem):
         self.supply = supply
         self.market = market
         self.axis = axis
-        pscale = p['pscale']
-        qscale = p['qscale']
+        self.pscale = p['pscale']
+        self.qscale = p['qscale']
 
         # --- setups ---
         setup = f"Supply and demand in the perfectly competitive market for {p['plural']} is shown in the diagram below."
@@ -54,47 +53,13 @@ class SupplyDemand(GenericProblem):
         self.add_setup(setup=setup, online_setup=online_setup)
 
         # --- questions ---
-        q = "What is the equilibrium price in the market?"
-        a = self.market.eq['p']
-        answers = generate_distractors(a, K=4, rng=rng)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, numerical=True, horz=True, rng=rng, scale=pscale, numtype='$')
-        online_answer = str(Scaled(a, pscale, '$'))
-        self.add_question(q, answer=a, online_answer=online_answer, mcq=mcq)
-
-        q = "What is the equilibrium quantity in the market?"
-        a = self.market.eq['q']
-        answers = generate_distractors(a, K=4, rng=rng)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, numerical=True, horz=True, rng=rng, scale=qscale, numtype='')
-        online_answer = str(Scaled(a, qscale, ''))
-        self.add_question(q, answer=a, online_answer=online_answer, mcq=mcq)
-
-        q = "What is the total volume of transactions in the market?"
-        a = self.market.eq['p'] * self.market.eq['q']
-        answers = generate_distractors(a, K=4, rng=rng)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, numerical=True, horz=True, rng=rng, scale=pscale*qscale, numtype='$')
-        online_answer = str(Scaled(a, pscale*qscale, '$'))
-        self.add_question(q, answer=a, online_answer=online_answer, mcq=mcq)
-
-        q = "What is the consumer surplus in the market?"
-        a = self.market.eq['CS']
-        answers = generate_distractors(a, K=4, rng=rng)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, numerical=True, horz=True, rng=rng, scale=pscale*qscale, numtype='$')
-        online_answer = str(Scaled(a, pscale*qscale, '$'))
-        self.add_question(q, answer=a, online_answer=online_answer, mcq=mcq)
-
-        q = "What is the producer surplus in the market?"
-        a = self.market.eq['PS']
-        answers = generate_distractors(a, K=4, rng=rng)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, numerical=True, horz=True, rng=rng, scale=pscale*qscale, numtype='$')
-        online_answer = str(Scaled(a, pscale*qscale, '$'))
-        self.add_question(q, answer=a, online_answer=online_answer, mcq=mcq)
-
-        q = "What is the total surplus in the market?"
-        a = self.market.eq['CS'] + self.market.eq['PS']
-        answers = generate_distractors(a, K=4, rng=rng)
-        mcq = MCQ(q, answers, solution=0, shuffle=False, sort=True, numerical=True, horz=True, rng=rng, scale=pscale*qscale, numtype='$')
-        online_answer = str(Scaled(a, pscale*qscale, '$'))
-        self.add_question(q, answer=a, online_answer=online_answer, mcq=mcq)
+        eq = self.market.eq
+        self.add_numeric_question("What is the equilibrium price in the market?", eq['p'],
+                                  rng=rng, scale=self.pscale, numtype='$')
+        self.add_numeric_question("What is the equilibrium quantity in the market?", eq['q'],
+                                  rng=rng, scale=self.qscale, numtype='')
+        self.add_numeric_question("What is the total volume of transactions in the market?", eq['p'] * eq['q'],
+                                  rng=rng, scale=self.pscale * self.qscale, numtype='$')
 
     def check_solution(self):
         if self.demand.a <= self.supply.a:
@@ -147,10 +112,3 @@ class SupplyDemand(GenericProblem):
                 'pmax': 13,
                 'qmax': 13
             }
-
-
-
-
-
-
-

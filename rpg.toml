@@ -6,3 +6,4 @@ packages = ["numpy", "pandas"]
 [files]
 "/CSUN-Econ-160/assets/data/decisions-decisions-practice.json" = ""
 "/CSUN-Econ-160/assets/data/supply-demand-practice.json" = ""
+"/CSUN-Econ-160/assets/data/consumer-producer-surplus-practice.json" = ""
