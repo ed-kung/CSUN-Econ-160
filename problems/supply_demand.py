@@ -27,8 +27,8 @@ class SupplyDemand(GenericProblem):
         equilibrium = Point(x=p['equilibrium'][0], y=p['equilibrium'][1])
         demand = LinearDemand.from_points(demand_point, equilibrium, label="D", labelstyle="label", labelshift=0.2)
         supply = LinearSupply.from_points(supply_point, equilibrium, label="S", labelstyle="label", labelshift=0.2)
-        demand_xg = np.arange(0, demand.eval_at_p(1)+0.1, 0.1)
-        supply_xg = np.arange(0, supply.eval_at_p(p['pmax']-1)+0.1, 0.1)
+        demand_xg = np.arange(0, min(demand.eval_at_p(1)+0.1, 12), 0.1)
+        supply_xg = np.arange(0, min(supply.eval_at_p(p['pmax']-1)+0.1, 12), 0.1)
         demand.line.plot_x = demand_xg
         supply.line.plot_x = supply_xg
         market = LinearMarket(demand=demand, supply=supply)
