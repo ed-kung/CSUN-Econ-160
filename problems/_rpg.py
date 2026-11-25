@@ -132,6 +132,7 @@ def sample_entries(cls, data_dir=None):
     entries = []
     for i, (_, row) in enumerate(rows.iterrows()):
         prob = cls(params=row.to_dict(), rng=rng, name=f"{cls._default_instance_name()}_rpg{i}")
+        prob.draw_graphs()   # writes any registered axes to config.image_dir
         if hasattr(prob, "rpg_entries"):
             new = prob.rpg_entries()
         else:

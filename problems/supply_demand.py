@@ -37,6 +37,7 @@ class SupplyDemand(GenericProblem):
             xnumtype='', ynumtype='$', xrot=45, yrot=0 
         )
         axis.add(demand, supply)
+        self.add_axis("graph", axis)   # saved as <name>_graph.png by draw_graphs()
         self.demand = demand
         self.supply = supply
         self.market = market
@@ -46,9 +47,9 @@ class SupplyDemand(GenericProblem):
 
         # --- setups ---
         setup = f"Supply and demand in the perfectly competitive market for {p['plural']} is shown in the diagram below."
-        # setup += // fill in appropriate code to insert the diagram
+        setup += "\n\n" + self.latex_image("graph")
         online_setup = f"<p>Supply and demand in the perfectly competitive market for {p['plural']} is shown in the diagram below.</p>"
-        # online_setup += // fill in appropriate code to insert the diagram
+        online_setup += self.online_image("graph")
 
         self.add_setup(setup=setup, online_setup=online_setup)
 

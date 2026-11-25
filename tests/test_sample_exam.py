@@ -58,6 +58,7 @@ def build_exam(rng, names):
         qids = [i for i, q in enumerate(prob.question_list) if q["MCQ"] is not None]
         assert qids, f"{name} has no multiple-choice questions"
         exam.add(formats.get_multipart_mcq(prob, question_ids=qids))
+        prob.draw_graphs(OUTPUT_DIR)   # \includegraphics paths are relative to the .tex file
         n_mcq += len(qids)
         probs.append(prob)
 
