@@ -6,8 +6,8 @@ class Specialization1(GenericProblem):
     default_params = {
         'type': 'lunch',
         'people': (Person.get('Bill'), Person.get('Ted')),
-        'good_1': Good.get('pizza roll'),
-        'good_2': Good.get('hot pocket'),
+        'good_1': Good.get('pizza'),
+        'good_2': Good.get('tacos'),
         'good_1_rate': (4, 2),
         'good_2_rate': (1, 2),
         'time_units': 'minute',
@@ -70,28 +70,28 @@ class Specialization1(GenericProblem):
 
         # ---- setups ----
         if type == 'lunch':
-            setup = f"{names[0]} and {names[1]} each have {total_time} {time_units}s to make lunch. {names[0]} can produce {good_1.plural} at a rate of {good_1_rate[0]} {good_1.plural} per {time_units}, or {good_2.plural} at a rate of {good_2_rate[0]} {good_2.plural} per {time_units}. {names[1]} can produce {good_1.plural} at a rate of {good_1_rate[1]} {good_1.plural} per {time_units}, or {good_2.plural} at a rate of {good_2_rate[1]} {good_2.plural} per {time_units}."
+            setup = f"{names[0]} and {names[1]} each have {total_time} {time_units}s to make lunch. {names[0]} can produce {good_1.market} at a rate of {good_1.amount(good_1_rate[0], full=False)} per {time_units}, or {good_2.market} at a rate of {good_2.amount(good_2_rate[0], full=False)} per {time_units}. {names[1]} can produce {good_1.market} at a rate of {good_1.amount(good_1_rate[1], full=False)} per {time_units}, or {good_2.market} at a rate of {good_2.amount(good_2_rate[1], full=False)} per {time_units}."
         self.add_setup(setup=setup)
 
         # ---- questions ----
-        q = f"What is {names[0]}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?"
+        q = f"What is {names[0]}'s opportunity cost of producing {good_1.market}, in {good_2.units} foregone per {good_1.unit} produced?"
         a = self.sol['opp_cost_good_1_person_1']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[0]}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?"
+        q = f"What is {names[0]}'s opportunity cost of producing {good_2.market}, in {good_1.units} foregone per {good_2.unit} produced?"
         a = self.sol['opp_cost_good_2_person_1']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[1]}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?"
+        q = f"What is {names[1]}'s opportunity cost of producing {good_1.market}, in {good_2.units} foregone per {good_1.unit} produced?"
         a = self.sol['opp_cost_good_1_person_2']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[1]}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?"
+        q = f"What is {names[1]}'s opportunity cost of producing {good_2.market}, in {good_1.units} foregone per {good_2.unit} produced?"
         a = self.sol['opp_cost_good_2_person_2']
         self.add_numeric_question(q, a, rng=rng)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_2.plural}."
-        online_question = f"______ has a comparative advantage in producing {good_1.plural} and ______ has a comparative advantage in producing {good_2.plural}."
+        question = f"\\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_1.market} and \\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_2.market}."
+        online_question = f"______ has a comparative advantage in producing {good_1.market} and ______ has a comparative advantage in producing {good_2.market}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -103,8 +103,8 @@ class Specialization1(GenericProblem):
         mcq = MCQ(question, answers, solution=sol, shuffle=False, horz=False, rng=rng)
         self.add_question(question=question, online_question=online_question, answer=answer, mcq=mcq)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_2.plural}."
-        online_question = f"______ has an absolute advantage in producing {good_1.plural} and ______ has an absolute advantage in producing {good_2.plural}."
+        question = f"\\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_1.market} and \\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_2.market}."
+        online_question = f"______ has an absolute advantage in producing {good_1.market} and ______ has an absolute advantage in producing {good_2.market}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -116,8 +116,8 @@ class Specialization1(GenericProblem):
         mcq = MCQ(question, answers, solution=sol, shuffle=False, horz=False, rng=rng)
         self.add_question(question=question, online_question=online_question, answer=answer, mcq=mcq)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} should specialize in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} should specialize in producing {good_2.plural}."
-        online_question = f"______ should specialize in producing {good_1.plural} and ______ should specialize in producing {good_2.plural}."
+        question = f"\\underline{{\\hspace{{2cm}}}} should specialize in producing {good_1.market} and \\underline{{\\hspace{{2cm}}}} should specialize in producing {good_2.market}."
+        online_question = f"______ should specialize in producing {good_1.market} and ______ should specialize in producing {good_2.market}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -131,10 +131,10 @@ class Specialization1(GenericProblem):
 
         question = "If each person fully specializes in the good they have a comparative advantage in producing, how many of each good will be produced in the available time?"
         answers = [
-            f"{self.sol['specialized_production_good_1']} {good_1.plural} and {self.sol['specialized_production_good_2']} {good_2.plural}",
-            f"{self.sol['specialized_production_good_1']} {good_1.plural} and {self.sol['suboptimal_production_good_2']} {good_2.plural}",
-            f"{self.sol['suboptimal_production_good_1']} {good_1.plural} and {self.sol['specialized_production_good_2']} {good_2.plural}",
-            f"{self.sol['suboptimal_production_good_1']} {good_1.plural} and {self.sol['suboptimal_production_good_2']} {good_2.plural}"
+            f"{good_1.amount(self.sol['specialized_production_good_1'])} and {good_2.amount(self.sol['specialized_production_good_2'])}",
+            f"{good_1.amount(self.sol['specialized_production_good_1'])} and {good_2.amount(self.sol['suboptimal_production_good_2'])}",
+            f"{good_1.amount(self.sol['suboptimal_production_good_1'])} and {good_2.amount(self.sol['specialized_production_good_2'])}",
+            f"{good_1.amount(self.sol['suboptimal_production_good_1'])} and {good_2.amount(self.sol['suboptimal_production_good_2'])}"
         ]
         answer = answers[0]
         sol = 0

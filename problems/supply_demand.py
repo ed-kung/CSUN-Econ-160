@@ -8,7 +8,7 @@ from econtools.graphs.axis import Axis
 class SupplyDemand(GenericProblem):
     default_params = {
         # pscale/qscale (price and quantity per grid unit) come from the good
-        "good": Good.get("widget"),
+        "good": Good.get("widgets"),
         "demand_point": (0, 12),
         "supply_point": (0, 0),
         "equilibrium": (6, 6),
@@ -45,9 +45,9 @@ class SupplyDemand(GenericProblem):
         self.qscale = good.qscale
 
         # --- setups ---
-        setup = f"Supply and demand in the perfectly competitive market for {p['good'].plural} is shown in the diagram below."
+        setup = f"Supply and demand in the perfectly competitive market for {p['good'].market} is shown in the diagram below."
         setup += "\n\n" + self.latex_image("graph")
-        online_setup = f"<p>Supply and demand in the perfectly competitive market for {p['good'].plural} is shown in the diagram below.</p>"
+        online_setup = f"<p>Supply and demand in the perfectly competitive market for {p['good'].market} is shown in the diagram below.</p>"
         online_setup += self.online_image("graph")
 
         self.add_setup(setup=setup, online_setup=online_setup)

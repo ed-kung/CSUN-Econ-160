@@ -6,10 +6,10 @@ from econtools.math.scaled import Scaled
 class Specialization2(GenericProblem):
     default_params = {
         'countries': (Country.get('China'), Country.get('America')),
-        'good_1': Good.get('car'),
-        'good_2': Good.get('movie'),
+        'good_1': Good.get('cars'),
+        'good_2': Good.get('computers'),
         'good_1_cost': (10_000, 20_000),
-        'good_2_cost': (1_000_000, 1_500_000),
+        'good_2_cost': (1_000, 1_500),
     }
     rpg_topic = "specialization-trade"
     rpg_title = "3. Specialization and Trade"
@@ -28,13 +28,13 @@ class Specialization2(GenericProblem):
         if opp_cost_good_1_person_1 < opp_cost_good_1_person_2:
             comparative_advantage_good_1 = names[0]
             comparative_advantage_good_2 = names[1]
-            person_1_specialization = good_1.plural
-            person_2_specialization = good_2.plural
+            person_1_specialization = good_1.market
+            person_2_specialization = good_2.market
         else:
             comparative_advantage_good_1 = names[1]
             comparative_advantage_good_2 = names[0]
-            person_1_specialization = good_2.plural
-            person_2_specialization = good_1.plural
+            person_1_specialization = good_2.market
+            person_2_specialization = good_1.market
         if good_1_cost[0] > good_1_cost[1]:
             absolute_advantage_good_1 = names[1]
         else:
@@ -58,29 +58,36 @@ class Specialization2(GenericProblem):
         }
 
         # ---- setups ----
-        setup = f"It costs {names[0]} {Scaled(good_1_cost[0],1,'$').texify()} to produce {good_1.a} and {Scaled(good_2_cost[0],1,'$').texify()} to produce {good_2.a}. It costs {names[1]} {Scaled(good_1_cost[1],1,'$').texify()} to produce {good_1.a} and {Scaled(good_2_cost[1],1,'$').texify()} to produce {good_2.a}."
-        online_setup = f"It costs {names[0]} {str(Scaled(good_1_cost[0],1,'$'))} to produce {good_1.a} and {str(Scaled(good_2_cost[0],1,'$'))} to produce {good_2.a}. It costs {names[1]} {str(Scaled(good_1_cost[1],1,'$'))} to produce {good_1.a} and {str(Scaled(good_2_cost[1],1,'$'))} to produce {good_2.a}."
+        def costs(fmt):
+            sentences = []
+            for k in range(2):
+                c1, c2 = fmt(good_1_cost[k]), fmt(good_2_cost[k])
+                sentences.append(f"{names[k]} can produce {good_1.market} at a cost of {c1} per {good_1.singular} "
+                                 f"and {good_2.market} at a cost of {c2} per {good_2.singular}.")
+            return " ".join(sentences)
+        setup = costs(lambda c: Scaled(c, 1, '$').texify())
+        online_setup = costs(lambda c: str(Scaled(c, 1, '$')))
         self.add_setup(setup=setup, online_setup=online_setup)
 
         # ---- questions ----
-        q = f"What is {names[0]}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?"
+        q = f"What is {names[0]}'s opportunity cost of producing {good_1.market}, in {good_2.units} foregone per {good_1.unit} produced?"
         a = self.sol['opp_cost_good_1_person_1']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[0]}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?"
+        q = f"What is {names[0]}'s opportunity cost of producing {good_2.market}, in {good_1.units} foregone per {good_2.unit} produced?"
         a = self.sol['opp_cost_good_2_person_1']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[1]}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?"
+        q = f"What is {names[1]}'s opportunity cost of producing {good_1.market}, in {good_2.units} foregone per {good_1.unit} produced?"
         a = self.sol['opp_cost_good_1_person_2']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[1]}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?"
+        q = f"What is {names[1]}'s opportunity cost of producing {good_2.market}, in {good_1.units} foregone per {good_2.unit} produced?"
         a = self.sol['opp_cost_good_2_person_2']
         self.add_numeric_question(q, a, rng=rng)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_2.plural}."
-        online_question = f"______ has a comparative advantage in producing {good_1.plural} and ______ has a comparative advantage in producing {good_2.plural}."
+        question = f"\\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_1.market} and \\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_2.market}."
+        online_question = f"______ has a comparative advantage in producing {good_1.market} and ______ has a comparative advantage in producing {good_2.market}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -92,8 +99,8 @@ class Specialization2(GenericProblem):
         mcq = MCQ(question, answers, solution=sol, shuffle=False, horz=False, rng=rng)
         self.add_question(question=question, online_question=online_question, answer=answer, mcq=mcq)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_2.plural}."
-        online_question = f"______ has an absolute advantage in producing {good_1.plural} and ______ has an absolute advantage in producing {good_2.plural}."
+        question = f"\\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_1.market} and \\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_2.market}."
+        online_question = f"______ has an absolute advantage in producing {good_1.market} and ______ has an absolute advantage in producing {good_2.market}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -108,10 +115,10 @@ class Specialization2(GenericProblem):
         question = f"{names[0]} should export \\underline{{\\hspace{{2cm}}}} to {names[1]} and {names[1]} should export \\underline{{\\hspace{{2cm}}}} to {names[0]}."
         online_question = f"{names[0]} should export ______ to {names[1]} and {names[1]} should export ______ to {names[0]}."
         answers = [
-            f"{good_1.plural}, {good_1.plural}",
-            f"{good_1.plural}, {good_2.plural}",
-            f"{good_2.plural}, {good_1.plural}",
-            f"{good_2.plural}, {good_2.plural}"
+            f"{good_1.market}, {good_1.market}",
+            f"{good_1.market}, {good_2.market}",
+            f"{good_2.market}, {good_1.market}",
+            f"{good_2.market}, {good_2.market}"
         ]
         answer = f"{self.sol['person_1_specialization']}, {self.sol['person_2_specialization']}"
         sol = answers.index(answer)
@@ -134,7 +141,7 @@ class Specialization2(GenericProblem):
         # costs are drawn from each good's price range in goods.csv (pmin..pmax times pscale)
         for i in range(N_SAMPLES):
             countries = Country.sample(rng, 2)
-            good_1, good_2 = Good.sample(rng, 2, tags='traded')
+            good_1, good_2 = Good.sample(rng, 2, tags='market')
             good_1_cost = (good_1.random_price(rng), good_1.random_price(rng))
             good_2_cost = (good_2.random_price(rng), good_2.random_price(rng))
             if good_1_cost[0]/good_2_cost[0] == good_1_cost[1]/good_2_cost[1]:

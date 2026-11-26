@@ -5,8 +5,8 @@ from econtools.problems.base import GenericProblem
 class OpportunityCost(GenericProblem):
     default_params = {
         'person': Person.get('Anna'),
-        'good_1': Good.get('popsicle'),
-        'good_2': Good.get('ice cream scoop'),
+        'good_1': Good.get('popsicles'),
+        'good_2': Good.get('ice cream'),
         'good_1_rate': 6,
         'good_2_rate': 5
     }
@@ -28,16 +28,16 @@ class OpportunityCost(GenericProblem):
         }
 
         # ---- setups ----
-        setup = f"{name} can produce {good_1.plural} at a rate of {good_1_rate} per hour or {good_2.plural} at a rate of {good_2_rate} per hour."
+        setup = f"{name} can produce {good_1.market} at a rate of {good_1.amount(good_1_rate, full=False)} per hour or {good_2.market} at a rate of {good_2.amount(good_2_rate, full=False)} per hour."
         self.add_setup(setup=setup)
 
         # ---- questions ----
         self.add_numeric_question(
-            f"What is {name}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?",
+            f"What is {name}'s opportunity cost of producing {good_1.market}, in {good_2.units} foregone per {good_1.unit} produced?",
             self.sol['opportunity_cost_good_1'], rng=rng
         )
         self.add_numeric_question(
-            f"What is {name}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?",
+            f"What is {name}'s opportunity cost of producing {good_2.market}, in {good_1.units} foregone per {good_2.unit} produced?",
             self.sol['opportunity_cost_good_2'], rng=rng
         )
 

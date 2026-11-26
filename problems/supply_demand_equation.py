@@ -9,7 +9,7 @@ class SupplyDemandEquation(GenericProblem):
     # equilibrium_price = (demand_intercept - supply_intercept) / (supply_slope - demand_slope)
 
     default_params = {
-        "good": Good.get("widget"),
+        "good": Good.get("widgets"),
         "demand_intercept": 100,
         "demand_slope": -1,
         "supply_intercept": 0,
@@ -34,13 +34,13 @@ class SupplyDemandEquation(GenericProblem):
         }
 
         # ---- setups ----
-        setup = f"Demand and supply in the market for {p['good'].plural} are given by the following equations:\n\n"
+        setup = f"Demand and supply in the market for {p['good'].market} are given by the following equations:\n\n"
         setup += f"\\begin{{align}}\n"
         setup += f"q_d &= {demand_eq.print()} \\\\ \n"
         setup += f"q_s &= {supply_eq.print()} \n"
         setup += f"\\end{{align}}\n\n"
 
-        online_setup = f"<p>Demand and supply in the market for {p['good'].plural} are given by the following equations:</p>\n\n"
+        online_setup = f"<p>Demand and supply in the market for {p['good'].market} are given by the following equations:</p>\n\n"
         online_setup += f"$$\\begin{{align}}\n"
         online_setup += f"q_d &= {demand_eq.print()} \\\\ \n"
         online_setup += f"q_s &= {supply_eq.print()} \n"
