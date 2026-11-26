@@ -1,5 +1,85 @@
 [
   {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for doodads is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg0_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. $65k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg1_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$35m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for robots is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg2_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$550k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg3_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$13.5m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg4_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$55k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg5_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$33.75k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for robots is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg6_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. $12.5m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg7_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$20m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg8_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$81.25k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for t-shirts is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg9_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. $9k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg10_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. $7k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for smartphones is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg11_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$600k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg12_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$1.5m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg13_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. $37.5k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg14_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$300k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg15_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$45k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg16_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$4m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg17_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$200m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg18_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$175k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for robots is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/p_s_change_rpg19_graph.png\"><p>One day, the demand curve changes from D1 to D2.</p></p>\n<p>1. Calculate the change in producer surplus as demand moves from D1 to D2.</p>\n",
+    "solution": "<p>1. -$2.75m</p>\n"
+  },
+  {
     "setup": "<p><p>Supply and demand in the perfectly competitive market for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_demand_surplus_rpg0_graph.png\"></p>\n<p>1. What is the equilibrium price in the market?</p>\n<p>2. What is the equilibrium quantity in the market?</p>\n<p>3. What is the total volume of transactions in the market?</p>\n<p>4. What is the consumer surplus in the market?</p>\n<p>5. What is the producer surplus in the market?</p>\n<p>6. What is the total surplus in the market?</p>\n",
     "solution": "<p>1. $30</p>\n<p>2. 7k</p>\n<p>3. $210k</p>\n<p>4. $17.5k</p>\n<p>5. $87.5k</p>\n<p>6. $105k</p>\n"
   },
