@@ -8,7 +8,7 @@ from econtools.graphs.axis import Axis
 class SupplyDemand(GenericProblem):
     default_params = {
         # pscale/qscale (price and quantity per grid unit) come from the good
-        "good": Good("widget", "widgets", pscale=5, qscale=1000),
+        "good": Good.get("widget"),
         "demand_point": (0, 12),
         "supply_point": (0, 0),
         "equilibrium": (6, 6),
@@ -74,7 +74,7 @@ class SupplyDemand(GenericProblem):
     def candidate_params(cls, rng):
         N_SAMPLES = 300
         for i in range(N_SAMPLES):
-            good = Good.sample(rng, tags='market')   # draws one of the good's pscales/qscales
+            good = Good.sample(rng, tags='market')   # graph scales: good.pscale/qscale per grid unit
             eq_x = rng.integers(4, 11)
             eq_y = rng.integers(4, 8)
             demand_a = rng.integers(eq_y+1, 13)

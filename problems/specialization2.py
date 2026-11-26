@@ -131,13 +131,12 @@ class Specialization2(GenericProblem):
     @classmethod
     def candidate_params(cls, rng):
         N_SAMPLES = 300
-        # costs are a grid value (COST_GRID) times the good's typical price scale (goods.csv)
-        COST_GRID = (1, 11)
+        # costs are drawn from each good's price range in goods.csv (pmin..pmax times pscale)
         for i in range(N_SAMPLES):
             countries = Country.sample(rng, 2)
             good_1, good_2 = Good.sample(rng, 2, tags='traded')
-            good_1_cost = tuple(int(rng.integers(*COST_GRID)) * good_1.pscale for _ in range(2))
-            good_2_cost = tuple(int(rng.integers(*COST_GRID)) * good_2.pscale for _ in range(2))
+            good_1_cost = (good_1.random_price(rng), good_1.random_price(rng))
+            good_2_cost = (good_2.random_price(rng), good_2.random_price(rng))
             if good_1_cost[0]/good_2_cost[0] == good_1_cost[1]/good_2_cost[1]:
                 continue
             if good_1_cost[0] == good_2_cost[0]:
