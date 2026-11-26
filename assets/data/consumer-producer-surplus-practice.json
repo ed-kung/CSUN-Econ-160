@@ -80,6 +80,86 @@
     "solution": "<p>1. -$2.75m</p>\n"
   },
   {
+    "setup": "<p><p>The perfectly competitive market for computers is in equilibrium, with an equilibrium price of $400 per computer and an equilibrium quantity traded of 40k computers. One day, demand decreases, and the new equilibrium price is $300 per computer and the new quantity traded is 30k computers.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$3.5m</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for smartphones is in equilibrium, with an equilibrium price of $400 per smartphone and an equilibrium quantity traded of 500k smartphones. One day, demand decreases, and the new equilibrium price is $300 per smartphone and the new quantity traded is 200k smartphones.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$35m</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for corn is in equilibrium, with an equilibrium price of $40 per bushel of corn and an equilibrium quantity traded of 4k bushels of corn. One day, demand decreases, and the new equilibrium price is $20 per bushel of corn and the new quantity traded is 2k bushels of corn.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$60k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for sneakers is in equilibrium, with an equilibrium price of $20 per pair of sneakers and an equilibrium quantity traded of 5k pairs of sneakers. One day, demand increases, and the new equilibrium price is $35 per pair of sneakers and the new quantity traded is 10k pairs of sneakers.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. $112.5k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for t-shirts is in equilibrium, with an equilibrium price of $20 per t-shirt and an equilibrium quantity traded of 3.5k t-shirts. One day, demand decreases, and the new equilibrium price is $15 per t-shirt and the new quantity traded is 2.5k t-shirts.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$15k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for cars is in equilibrium, with an equilibrium price of $50k per car and an equilibrium quantity traded of 600k cars. One day, demand increases, and the new equilibrium price is $60k per car and the new quantity traded is 900k cars.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. $7.5B</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for widgets is in equilibrium, with an equilibrium price of $20 per widget and an equilibrium quantity traded of 40k widgets. One day, demand decreases, and the new equilibrium price is $15 per widget and the new quantity traded is 30k widgets.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$175k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for board games is in equilibrium, with an equilibrium price of $50 per board game and an equilibrium quantity traded of 5k board games. One day, demand decreases, and the new equilibrium price is $40 per board game and the new quantity traded is 2k board games.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$35k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for bikes is in equilibrium, with an equilibrium price of $100 per bike and an equilibrium quantity traded of 8m bikes. One day, demand decreases, and the new equilibrium price is $75 per bike and the new quantity traded is 3m bikes.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$137.5m</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for corn is in equilibrium, with an equilibrium price of $60 per bushel of corn and an equilibrium quantity traded of 80k bushels of corn. One day, demand increases, and the new equilibrium price is $70 per bushel of corn and the new quantity traded is 100k bushels of corn.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. $900k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for USB sticks is in equilibrium, with an equilibrium price of $12 per USB stick and an equilibrium quantity traded of 8k USB sticks. One day, demand decreases, and the new equilibrium price is $10 per USB stick and the new quantity traded is 6k USB sticks.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$14k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for corn is in equilibrium, with an equilibrium price of $50 per bushel of corn and an equilibrium quantity traded of 6k bushels of corn. One day, demand decreases, and the new equilibrium price is $40 per bushel of corn and the new quantity traded is 2k bushels of corn.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$40k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for cars is in equilibrium, with an equilibrium price of $50k per car and an equilibrium quantity traded of 600k cars. One day, demand decreases, and the new equilibrium price is $20k per car and the new quantity traded is 200k cars.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$12B</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for bikes is in equilibrium, with an equilibrium price of $150 per bike and an equilibrium quantity traded of 700k bikes. One day, demand decreases, and the new equilibrium price is $50 per bike and the new quantity traded is 200k bikes.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$45m</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for computers is in equilibrium, with an equilibrium price of $600 per computer and an equilibrium quantity traded of 200k computers. One day, demand increases, and the new equilibrium price is $700 per computer and the new quantity traded is 400k computers.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. $30m</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for sneakers is in equilibrium, with an equilibrium price of $20 per pair of sneakers and an equilibrium quantity traded of 6k pairs of sneakers. One day, demand decreases, and the new equilibrium price is $10 per pair of sneakers and the new quantity traded is 3k pairs of sneakers.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$45k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for computers is in equilibrium, with an equilibrium price of $400 per computer and an equilibrium quantity traded of 7k computers. One day, demand decreases, and the new equilibrium price is $300 per computer and the new quantity traded is 3k computers.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$500k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for robots is in equilibrium, with an equilibrium price of $2k per robot and an equilibrium quantity traded of 5k robots. One day, demand increases, and the new equilibrium price is $3.5k per robot and the new quantity traded is 10k robots.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. $11.25m</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for widgets is in equilibrium, with an equilibrium price of $25 per widget and an equilibrium quantity traded of 30k widgets. One day, demand decreases, and the new equilibrium price is $20 per widget and the new quantity traded is 15k widgets.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. -$112.5k</p>\n"
+  },
+  {
+    "setup": "<p><p>The perfectly competitive market for widgets is in equilibrium, with an equilibrium price of $20 per widget and an equilibrium quantity traded of 50k widgets. One day, demand increases, and the new equilibrium price is $30 per widget and the new quantity traded is 90k widgets.</p></p>\n<p>1. Calculate the change in producer surplus.</p>\n",
+    "solution": "<p>1. $700k</p>\n"
+  },
+  {
     "setup": "<p><p>Supply and demand in the perfectly competitive market for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_demand_surplus_rpg0_graph.png\"></p>\n<p>1. What is the equilibrium price in the market?</p>\n<p>2. What is the equilibrium quantity in the market?</p>\n<p>3. What is the total volume of transactions in the market?</p>\n<p>4. What is the consumer surplus in the market?</p>\n<p>5. What is the producer surplus in the market?</p>\n<p>6. What is the total surplus in the market?</p>\n",
     "solution": "<p>1. $30</p>\n<p>2. 7k</p>\n<p>3. $210k</p>\n<p>4. $17.5k</p>\n<p>5. $87.5k</p>\n<p>6. $105k</p>\n"
   },
