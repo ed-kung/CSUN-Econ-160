@@ -1,11 +1,12 @@
 import numpy as np
+from econtools.entities import Firm
 from econtools.problems.base import MCQ, GenericProblem, generate_distractors
 from econtools.tables.tables import Table
 
 class MBMCTable(GenericProblem):
     default_params = {
         "type": "cars",
-        "name": "Stan's Used Car Rentals",
+        "firm": Firm.get("Stan's Used Car Rentals"),
         "MB": [25, 20, 15, 10, 5],
         "MC": [15, 16, 17, 18, 19]
     }
@@ -31,17 +32,17 @@ class MBMCTable(GenericProblem):
         self.sol = {'choice': choice, 'utility': utility, 'TU': TU}
 
         if p['type'] == 'cars':
-            setup = f"{p['name']} is deciding how many cars to keep in its lot. The marginal benefit and marginal cost of keeping each additional car is shown in the table below. {p['name']} makes choices to maximize its utility, which equals the total benefit minus the total cost.\n\n"
+            setup = f"{p['firm'].name} is deciding how many cars to keep in its lot. The marginal benefit and marginal cost of keeping each additional car is shown in the table below. {p['firm'].name} makes choices to maximize its utility, which equals the total benefit minus the total cost.\n\n"
             setup += table.texify()
 
-            online_setup = f"<p>{p['name']} is deciding how many cars to keep in its lot. The marginal benefit and marginal cost of keeping each additional car is shown in the table below. {p['name']} makes choices to maximize its utility, which equals the total benefit minus the total cost.</p>"
+            online_setup = f"<p>{p['firm'].name} is deciding how many cars to keep in its lot. The marginal benefit and marginal cost of keeping each additional car is shown in the table below. {p['firm'].name} makes choices to maximize its utility, which equals the total benefit minus the total cost.</p>"
             online_setup += "<p>" + table.htmlify() + "</p>"
 
         elif p['type'] == 'espresso machines':
-            setup = f"{p['name']} is deciding how many espresso machines to purchase for its stores. The marginal benefit and marginal cost of purchasing each additional espresso machine is shown in the table below. {p['name']} makes choices to maximize its utility, which equals the total benefit minus the total cost.\n\n"
+            setup = f"{p['firm'].name} is deciding how many espresso machines to purchase for its stores. The marginal benefit and marginal cost of purchasing each additional espresso machine is shown in the table below. {p['firm'].name} makes choices to maximize its utility, which equals the total benefit minus the total cost.\n\n"
             setup += table.texify()
 
-            online_setup = f"<p>{p['name']} is deciding how many espresso machines to purchase for its stores. The marginal benefit and marginal cost of purchasing each additional espresso machine is shown in the table below. {p['name']} makes choices to maximize its utility, which equals the total benefit minus the total cost.</p>"
+            online_setup = f"<p>{p['firm'].name} is deciding how many espresso machines to purchase for its stores. The marginal benefit and marginal cost of purchasing each additional espresso machine is shown in the table below. {p['firm'].name} makes choices to maximize its utility, which equals the total benefit minus the total cost.</p>"
             online_setup += "<p>" + table.htmlify() + "</p>"
         
         # --- setups ---
@@ -82,15 +83,11 @@ class MBMCTable(GenericProblem):
     @classmethod
     def candidate_params(cls, rng):
         N_SAMPLES = 100
+        FIRM_TAGS = {'cars': 'car-lot', 'espresso machines': 'coffee'}   # firms.csv tags
         # ---- cars ----
         type = 'cars'
-        names = [
-            "Stan's Used Car Rentals",
-            "Bob's Car Emporium",
-            "Kenny's Car Lot"
-        ]
         for i in range(N_SAMPLES):
-            name = names[rng.choice(len(names))]
+            firm = Firm.sample(rng, tags=FIRM_TAGS[type])
             n_choices = rng.integers(5, 8)
             MB_intercept = rng.integers(25, 51)
             MB_slope = rng.integers(-5, 0)
@@ -100,19 +97,14 @@ class MBMCTable(GenericProblem):
             MC = MC_intercept + MC_slope * (np.arange(n_choices) + 1)
             yield {
                 'type': type,
-                'name': name,
+                'firm': firm,
                 'MB': MB.tolist(),
                 'MC': MC.tolist()
             }
         # --- espresso machines ----
         type = 'espresso machines'
-        names = [
-            "Coffee Bean",
-            "Starbucks",
-            "Dunkin Donuts"
-        ]
         for i in range(N_SAMPLES):
-            name = names[rng.choice(len(names))]
+            firm = Firm.sample(rng, tags=FIRM_TAGS[type])
             n_choices = rng.integers(5, 8)
             MB_intercept = rng.integers(25, 51)
             MB_slope = rng.integers(-5, 0)
@@ -122,7 +114,7 @@ class MBMCTable(GenericProblem):
             MC = MC_intercept + MC_slope * (np.arange(n_choices) + 1)
             yield {
                 'type': type,
-                'name': name,
+                'firm': firm,
                 'MB': MB.tolist(),
                 'MC': MC.tolist()
             }

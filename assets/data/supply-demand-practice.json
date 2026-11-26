@@ -80,83 +80,83 @@
     "solution": "<p>1. $40</p>\n<p>2. 25k</p>\n<p>3. $1m</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 33-10p \\\\ \nq_s &= 4p \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 2.35714</p>\n<p>2. 9.42857</p>\n"
+    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 85-3p \\\\ \nq_s &= 10p-5 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 6.92308</p>\n<p>2. 64.2308</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 69-5p \\\\ \nq_s &= 8p \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 5.30769</p>\n<p>2. 42.4615</p>\n"
+    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 75-6p \\\\ \nq_s &= 10p+63 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 0.75</p>\n<p>2. 70.5</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 30-5p \\\\ \nq_s &= p+1 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 4.83333</p>\n<p>2. 5.83333</p>\n"
+    "setup": "<p><p>Demand and supply in the market for doodads are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 51-7p \\\\ \nq_s &= 7p+15 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 2.57143</p>\n<p>2. 33</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 72-8p \\\\ \nq_s &= 4p+46 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 2.16667</p>\n<p>2. 54.6667</p>\n"
+    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 67-7p \\\\ \nq_s &= 5p+38 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 2.41667</p>\n<p>2. 50.0833</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 61-7p \\\\ \nq_s &= 3p+31 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 3</p>\n<p>2. 40</p>\n"
+    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 84-7p \\\\ \nq_s &= 5p+37 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 3.91667</p>\n<p>2. 56.5833</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 67-9p \\\\ \nq_s &= 10p-9 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 4</p>\n<p>2. 31</p>\n"
+    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 67-8p \\\\ \nq_s &= p-4 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 7.88889</p>\n<p>2. 3.88889</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for robots are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 73-2p \\\\ \nq_s &= 2p+36 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 9.25</p>\n<p>2. 54.5</p>\n"
+    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 100-p \\\\ \nq_s &= 4p+57 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 8.6</p>\n<p>2. 91.4</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 16-6p \\\\ \nq_s &= 8p+3 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 0.928571</p>\n<p>2. 10.4286</p>\n"
+    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 59-8p \\\\ \nq_s &= 5p-16 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 5.76923</p>\n<p>2. 12.8462</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for robots are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 66-10p \\\\ \nq_s &= 8p+11 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 3.05556</p>\n<p>2. 35.4444</p>\n"
+    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 71-3p \\\\ \nq_s &= 9p-7 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 6.5</p>\n<p>2. 51.5</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 74-9p \\\\ \nq_s &= 2p+59 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 1.36364</p>\n<p>2. 61.7273</p>\n"
+    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 90-9p \\\\ \nq_s &= 4p-9 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 7.61538</p>\n<p>2. 21.4615</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for USB sticks are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 57-p \\\\ \nq_s &= 2p+43 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 4.66667</p>\n<p>2. 52.3333</p>\n"
+    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 12-9p \\\\ \nq_s &= 8p-6 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 1.05882</p>\n<p>2. 2.47059</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 47-7p \\\\ \nq_s &= 4p+36 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 1</p>\n<p>2. 40</p>\n"
+    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 96-3p \\\\ \nq_s &= 8p+24 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 6.54545</p>\n<p>2. 76.3636</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 61-6p \\\\ \nq_s &= 9p+37 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 1.6</p>\n<p>2. 51.4</p>\n"
+    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 78-5p \\\\ \nq_s &= 9p+45 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 2.35714</p>\n<p>2. 66.2143</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 20-7p \\\\ \nq_s &= 9p+2 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 1.125</p>\n<p>2. 12.125</p>\n"
+    "setup": "<p><p>Demand and supply in the market for coffee are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 45-p \\\\ \nq_s &= 3p+19 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 6.5</p>\n<p>2. 38.5</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 34-10p \\\\ \nq_s &= 9p+17 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 0.894737</p>\n<p>2. 25.0526</p>\n"
+    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 93-4p \\\\ \nq_s &= 7p+16 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 7</p>\n<p>2. 65</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for widgets are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 49-7p \\\\ \nq_s &= 6p+15 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 2.61538</p>\n<p>2. 30.6923</p>\n"
+    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 58-5p \\\\ \nq_s &= p+46 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 2</p>\n<p>2. 48</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 72-4p \\\\ \nq_s &= 3p+33 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 5.57143</p>\n<p>2. 49.7143</p>\n"
+    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 88-7p \\\\ \nq_s &= 4p-16 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 9.45455</p>\n<p>2. 21.8182</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for robots are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 14-p \\\\ \nq_s &= 6p+3 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 1.57143</p>\n<p>2. 12.4286</p>\n"
+    "setup": "<p><p>Demand and supply in the market for USB sticks are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 60-5p \\\\ \nq_s &= 3p+19 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 5.125</p>\n<p>2. 34.375</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for doodads are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 74-p \\\\ \nq_s &= 6p+44 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 4.28571</p>\n<p>2. 69.7143</p>\n"
+    "setup": "<p><p>Demand and supply in the market for corn are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 85-6p \\\\ \nq_s &= p+39 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 6.57143</p>\n<p>2. 45.5714</p>\n"
   },
   {
-    "setup": "<p><p>Demand and supply in the market for robots are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 77-9p \\\\ \nq_s &= 5p+35 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
-    "solution": "<p>1. 3</p>\n<p>2. 50</p>\n"
+    "setup": "<p><p>Demand and supply in the market for bikes are given by the following equations:</p>\n\n$$\\begin{align}\nq_d &= 29-6p \\\\ \nq_s &= 2p+9 \n\\end{align}$$\n\n</p>\n<p>1. What is the equilibrium price in this market?</p>\n<p>2. What is the equilibrium quantity in this market?</p>\n",
+    "solution": "<p>1. 2.5</p>\n<p>2. 14</p>\n"
   }
 ]

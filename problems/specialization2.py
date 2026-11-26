@@ -1,12 +1,13 @@
 import numpy as np
+from econtools.entities import Country, Good
 from econtools.problems.base import MCQ, GenericProblem, generate_distractors
 from econtools.math.scaled import Scaled
 
 class Specialization2(GenericProblem):
     default_params = {
-        'names': ('China', 'America'),
-        'good_1': ('car', 'cars'),
-        'good_2': ('movie', 'movies'),
+        'countries': (Country.get('China'), Country.get('America')),
+        'good_1': Good.get('car'),
+        'good_2': Good.get('movie'),
         'good_1_cost': (10_000, 20_000),
         'good_2_cost': (1_000_000, 1_500_000),
     }
@@ -15,7 +16,7 @@ class Specialization2(GenericProblem):
 
     def build(self, rng):
         p = self.params
-        names = p['names']
+        names = tuple(country.name for country in p['countries'])
         good_1 = p['good_1']
         good_2 = p['good_2']
         good_1_cost = p['good_1_cost']
@@ -27,13 +28,13 @@ class Specialization2(GenericProblem):
         if opp_cost_good_1_person_1 < opp_cost_good_1_person_2:
             comparative_advantage_good_1 = names[0]
             comparative_advantage_good_2 = names[1]
-            person_1_specialization = good_1[1]
-            person_2_specialization = good_2[1]
+            person_1_specialization = good_1.plural
+            person_2_specialization = good_2.plural
         else:
             comparative_advantage_good_1 = names[1]
             comparative_advantage_good_2 = names[0]
-            person_1_specialization = good_2[1]
-            person_2_specialization = good_1[1]
+            person_1_specialization = good_2.plural
+            person_2_specialization = good_1.plural
         if good_1_cost[0] > good_1_cost[1]:
             absolute_advantage_good_1 = names[1]
         else:
@@ -57,29 +58,29 @@ class Specialization2(GenericProblem):
         }
 
         # ---- setups ----
-        setup = f"It costs {names[0]} {Scaled(good_1_cost[0],1,'$').texify()} to produce a {good_1[0]} and {Scaled(good_2_cost[0],1,'$').texify()} to produce a {good_2[0]}. It costs {names[1]} {Scaled(good_1_cost[1],1,'$').texify()} to produce a {good_1[0]} and {Scaled(good_2_cost[1],1,'$').texify()} to produce a {good_2[0]}."
-        online_setup = f"It costs {names[0]} {str(Scaled(good_1_cost[0],1,'$'))} to produce a {good_1[0]} and {str(Scaled(good_2_cost[0],1,'$'))} to produce a {good_2[0]}. It costs {names[1]} {str(Scaled(good_1_cost[1],1,'$'))} to produce a {good_1[0]} and {str(Scaled(good_2_cost[1],1,'$'))} to produce a {good_2[0]}."
+        setup = f"It costs {names[0]} {Scaled(good_1_cost[0],1,'$').texify()} to produce {good_1.a} and {Scaled(good_2_cost[0],1,'$').texify()} to produce {good_2.a}. It costs {names[1]} {Scaled(good_1_cost[1],1,'$').texify()} to produce {good_1.a} and {Scaled(good_2_cost[1],1,'$').texify()} to produce {good_2.a}."
+        online_setup = f"It costs {names[0]} {str(Scaled(good_1_cost[0],1,'$'))} to produce {good_1.a} and {str(Scaled(good_2_cost[0],1,'$'))} to produce {good_2.a}. It costs {names[1]} {str(Scaled(good_1_cost[1],1,'$'))} to produce {good_1.a} and {str(Scaled(good_2_cost[1],1,'$'))} to produce {good_2.a}."
         self.add_setup(setup=setup, online_setup=online_setup)
 
         # ---- questions ----
-        q = f"What is {names[0]}'s opportunity cost of producing {good_1[1]}, in units of {good_2[1]} foregone per unit of {good_1[1]} produced?"
+        q = f"What is {names[0]}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?"
         a = self.sol['opp_cost_good_1_person_1']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[0]}'s opportunity cost of producing {good_2[1]}, in units of {good_1[1]} foregone per unit of {good_2[1]} produced?"
+        q = f"What is {names[0]}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?"
         a = self.sol['opp_cost_good_2_person_1']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[1]}'s opportunity cost of producing {good_1[1]}, in units of {good_2[1]} foregone per unit of {good_1[1]} produced?"
+        q = f"What is {names[1]}'s opportunity cost of producing {good_1.plural}, in units of {good_2.plural} foregone per unit of {good_1.plural} produced?"
         a = self.sol['opp_cost_good_1_person_2']
         self.add_numeric_question(q, a, rng=rng)
 
-        q = f"What is {names[1]}'s opportunity cost of producing {good_2[1]}, in units of {good_1[1]} foregone per unit of {good_2[1]} produced?"
+        q = f"What is {names[1]}'s opportunity cost of producing {good_2.plural}, in units of {good_1.plural} foregone per unit of {good_2.plural} produced?"
         a = self.sol['opp_cost_good_2_person_2']
         self.add_numeric_question(q, a, rng=rng)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_1[1]} and \\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_2[1]}."
-        online_question = f"______ has a comparative advantage in producing {good_1[1]} and ______ has a comparative advantage in producing {good_2[1]}."
+        question = f"\\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} has a comparative advantage in producing {good_2.plural}."
+        online_question = f"______ has a comparative advantage in producing {good_1.plural} and ______ has a comparative advantage in producing {good_2.plural}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -91,8 +92,8 @@ class Specialization2(GenericProblem):
         mcq = MCQ(question, answers, solution=sol, shuffle=False, horz=False, rng=rng)
         self.add_question(question=question, online_question=online_question, answer=answer, mcq=mcq)
 
-        question = f"\\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_1[1]} and \\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_2[1]}."
-        online_question = f"______ has an absolute advantage in producing {good_1[1]} and ______ has an absolute advantage in producing {good_2[1]}."
+        question = f"\\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_1.plural} and \\underline{{\\hspace{{2cm}}}} has an absolute advantage in producing {good_2.plural}."
+        online_question = f"______ has an absolute advantage in producing {good_1.plural} and ______ has an absolute advantage in producing {good_2.plural}."
         answers = [
             f"{names[0]}, {names[0]}",
             f"{names[0]}, {names[1]}",
@@ -107,10 +108,10 @@ class Specialization2(GenericProblem):
         question = f"{names[0]} should export \\underline{{\\hspace{{2cm}}}} to {names[1]} and {names[1]} should export \\underline{{\\hspace{{2cm}}}} to {names[0]}."
         online_question = f"{names[0]} should export ______ to {names[1]} and {names[1]} should export ______ to {names[0]}."
         answers = [
-            f"{good_1[1]}, {good_1[1]}",
-            f"{good_1[1]}, {good_2[1]}",
-            f"{good_2[1]}, {good_1[1]}",
-            f"{good_2[1]}, {good_2[1]}"
+            f"{good_1.plural}, {good_1.plural}",
+            f"{good_1.plural}, {good_2.plural}",
+            f"{good_2.plural}, {good_1.plural}",
+            f"{good_2.plural}, {good_2.plural}"
         ]
         answer = f"{self.sol['person_1_specialization']}, {self.sol['person_2_specialization']}"
         sol = answers.index(answer)
@@ -130,35 +131,13 @@ class Specialization2(GenericProblem):
     @classmethod
     def candidate_params(cls, rng):
         N_SAMPLES = 300
-        names = ['America', 'China', 'Taiwan', 'Mexico', 'Brazil', 'France', 'Germany', 'Japan', 'Korea']
-        goods = [
-            ('car', 'cars', 2, 7, 10_000),
-            ('movie', 'movies', 1, 10, 500_000),
-            ('sneaker', 'sneakers', 1, 10, 5),
-            ('computer', 'computers', 1, 11, 100),
-            ('smartphone', 'smartphones', 1, 11, 100),
-            ('t-shirt', 't-shirts', 1, 11, 10)
-        ]
+        # costs are a grid value (COST_GRID) times the good's typical price scale (goods.csv)
+        COST_GRID = (1, 11)
         for i in range(N_SAMPLES):
-            my_names = tuple(rng.choice(names, size=2, replace=False))
-            idx = rng.choice(len(goods), size=2, replace=False)
-            my_goods = [goods[i] for i in idx]
-            good_1 = (my_goods[0][0], my_goods[0][1])
-            good_2 = (my_goods[1][0], my_goods[1][1])
-            good_1_cost_min = my_goods[0][2]
-            good_2_cost_min = my_goods[1][2]
-            good_1_cost_max = my_goods[0][3] + 1
-            good_2_cost_max = my_goods[1][3] + 1
-            good_1_cost_scale = my_goods[0][4]
-            good_2_cost_scale = my_goods[1][4]
-            good_1_cost = (
-                rng.integers(good_1_cost_min, good_1_cost_max) * good_1_cost_scale,
-                rng.integers(good_1_cost_min, good_1_cost_max) * good_1_cost_scale
-            )
-            good_2_cost = (
-                rng.integers(good_2_cost_min, good_2_cost_max) * good_2_cost_scale,
-                rng.integers(good_2_cost_min, good_2_cost_max) * good_2_cost_scale
-            )
+            countries = Country.sample(rng, 2)
+            good_1, good_2 = Good.sample(rng, 2, tags='traded')
+            good_1_cost = tuple(int(rng.integers(*COST_GRID)) * good_1.pscale for _ in range(2))
+            good_2_cost = tuple(int(rng.integers(*COST_GRID)) * good_2.pscale for _ in range(2))
             if good_1_cost[0]/good_2_cost[0] == good_1_cost[1]/good_2_cost[1]:
                 continue
             if good_1_cost[0] == good_2_cost[0]:
@@ -166,7 +145,7 @@ class Specialization2(GenericProblem):
             if good_1_cost[1] == good_2_cost[1]:
                 continue
             yield {
-                'names': my_names,
+                'countries': countries,
                 'good_1': good_1,
                 'good_2': good_2,
                 'good_1_cost': good_1_cost,

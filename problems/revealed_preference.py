@@ -1,3 +1,4 @@
+from econtools.entities import Firm, Person
 from econtools.problems.base import MCQ, GenericProblem, generate_distractors
 from econtools.math.scaled import Scaled
 from econtools.tables.tables import Table
@@ -6,8 +7,7 @@ from econtools.tables.tables import Table
 class RevealedPreference(GenericProblem):
     default_params = {
         "type": "day off",
-        "name": "Ferris",
-        "pronouns": ["he", "his"],
+        "person": Person.get("Ferris"),
         # one entry per option; kept as separate same-typed lists so they store cleanly in parquet
         "options": ["stay home", "run errands", "visit the museum", "go to the baseball game"],
         "benefits": [50, 40, 80, 120],
@@ -62,31 +62,31 @@ class RevealedPreference(GenericProblem):
         self.sol = {'ans_1': ans_1, 'ans_2': ans_2, 'utils_ranked': utils_ranked, 'choices_ranked': choices_ranked}
 
         if p["type"] == "day off":
-            setup = f"{p['name']} has a day off. {p['pronouns'][0].capitalize()} can either {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.\n\n"
+            setup = f"{p['person'].name} has a day off. {p['person'].subject.capitalize()} can either {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['person'].name}'s costs and benefits for each option are shown in the table below. {p['person'].name} makes choices to maximize {p['person'].possessive} utility, which equals benefit minus cost.\n\n"
             setup += table.texify() + "\n\n"
-            setup += f"Suppose {p['name']} chooses to {best_choice_str}. Then {p['name']}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
+            setup += f"Suppose {p['person'].name} chooses to {best_choice_str}. Then {p['person'].name}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
 
-            online_setup = f"<p>{p['name']} has a day off. {p['pronouns'][0].capitalize()} can either {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.</p>"
+            online_setup = f"<p>{p['person'].name} has a day off. {p['person'].subject.capitalize()} can either {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['person'].name}'s costs and benefits for each option are shown in the table below. {p['person'].name} makes choices to maximize {p['person'].possessive} utility, which equals benefit minus cost.</p>"
             online_setup += "<p>" + online_table.htmlify() + "</p>"
-            online_setup += f"<p>Suppose {p['name']} chooses to {best_choice_str}. Then {p['name']}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
+            online_setup += f"<p>Suppose {p['person'].name} chooses to {best_choice_str}. Then {p['person'].name}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
         
         elif p["type"] == "lunch":
-            setup = f"{p['name']} is deciding what to eat for lunch. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.\n\n"
+            setup = f"{p['person'].name} is deciding what to eat for lunch. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['person'].name}'s costs and benefits for each option are shown in the table below. {p['person'].name} makes choices to maximize {p['person'].possessive} utility, which equals benefit minus cost.\n\n"
             setup += table.texify() + "\n\n"
-            setup += f"Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
+            setup += f"Suppose {p['person'].name} chooses {best_choice_str}. Then {p['person'].name}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
 
-            online_setup = f"<p>{p['name']} is deciding what to eat for lunch. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.</p>"
+            online_setup = f"<p>{p['person'].name} is deciding what to eat for lunch. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['person'].name}'s costs and benefits for each option are shown in the table below. {p['person'].name} makes choices to maximize {p['person'].possessive} utility, which equals benefit minus cost.</p>"
             online_setup += "<p>" + online_table.htmlify() + "</p>"
-            online_setup += f"<p>Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
+            online_setup += f"<p>Suppose {p['person'].name} chooses {best_choice_str}. Then {p['person'].name}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
 
         elif p["type"] == "car":
-            setup = f"{p['name']} is deciding what car to buy. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.\n\n"
+            setup = f"{p['person'].name} is deciding what car to buy. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['person'].name}'s costs and benefits for each option are shown in the table below. {p['person'].name} makes choices to maximize {p['person'].possessive} utility, which equals benefit minus cost.\n\n"
             setup += table.texify() + "\n\n"
-            setup += f"Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
+            setup += f"Suppose {p['person'].name} chooses {best_choice_str}. Then {p['person'].name}'s benefit of ``{masked_choice_str}'' must be \\underline{{\\hspace{{3cm}}}}."
 
-            online_setup = f"<p>{p['name']} is deciding what car to buy. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['name']}'s costs and benefits for each option are shown in the table below. {p['name']} makes choices to maximize {p['pronouns'][1]} utility, which equals benefit minus cost.</p>"
+            online_setup = f"<p>{p['person'].name} is deciding what car to buy. The choices are {options[0]}, {options[1]}, {options[2]}, or {options[3]}. {p['person'].name}'s costs and benefits for each option are shown in the table below. {p['person'].name} makes choices to maximize {p['person'].possessive} utility, which equals benefit minus cost.</p>"
             online_setup += "<p>" + online_table.htmlify() + "</p>"
-            online_setup += f"<p>Suppose {p['name']} chooses {best_choice_str}. Then {p['name']}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
+            online_setup += f"<p>Suppose {p['person'].name} chooses {best_choice_str}. Then {p['person'].name}'s benefit of \"{masked_choice_str}\" must be ______.</p>"
 
         # --- setups ---
         self.add_setup(setup=setup, online_setup=online_setup)
@@ -115,10 +115,6 @@ class RevealedPreference(GenericProblem):
     def candidate_params(cls, rng):
         # ---- Day off ----
         type = 'day off'
-        names = [
-            ('Ferris', ['he', 'his']),
-            ('Jane', ['she', 'her'])
-        ]
         choices = [
             # [name, (min_benefit, max_benefit), (min_cost, max_cost)]
             ['stay home', (10, 50), (0, 0)],
@@ -130,7 +126,7 @@ class RevealedPreference(GenericProblem):
         ]
         # yield 100 examples
         for i in range(100):
-            (name, pronouns) = names[rng.choice(len(names))]
+            person = Person.sample(rng)
             my_choices = [choices[j] for j in rng.choice(len(choices), size=4, replace=False)]
             masked_choice_idx = int(rng.choice(4))
             options, benefits, costs = [], [], []
@@ -140,8 +136,7 @@ class RevealedPreference(GenericProblem):
                 costs.append(int(rng.integers(choice[2][0], choice[2][1]+1)))
             yield {
                 'type': type,
-                'name': name,
-                'pronouns': pronouns,
+                'person': person,
                 'options': options,
                 'benefits': benefits,
                 'costs': costs,
@@ -151,10 +146,6 @@ class RevealedPreference(GenericProblem):
 
         # ---- Lunch ----
         type = 'lunch'
-        names = [
-            ('Alice', ['she', 'her']),
-            ('John', ['he', 'his'])
-        ]
         choices = [
             # [name, (min_benefit, max_benefit), (min_cost, max_cost)]
             ['salad', (5, 20), (4, 10)],
@@ -166,7 +157,7 @@ class RevealedPreference(GenericProblem):
         ]
         # yield 100 examples
         for i in range(100):
-            (name, pronouns) = names[rng.choice(len(names))]
+            person = Person.sample(rng)
             my_choices = [choices[j] for j in rng.choice(len(choices), size=4, replace=False)]
             masked_choice_idx = int(rng.choice(4))
             options, benefits, costs = [], [], []
@@ -176,8 +167,7 @@ class RevealedPreference(GenericProblem):
                 costs.append(int(rng.integers(choice[2][0], choice[2][1]+1)))
             yield {
                 'type': type,
-                'name': name,
-                'pronouns': pronouns,
+                'person': person,
                 'options': options,
                 'benefits': benefits,
                 'costs': costs,
@@ -187,26 +177,11 @@ class RevealedPreference(GenericProblem):
 
         # ---- Car ----
         type = 'car'
-        names = [
-            ('Bob', ['he', 'his']),
-            ('Carol', ['she', 'her'])
-        ]
-        choices = [
-            # [name, (min_benefit, max_benefit), (min_cost, max_cost)], in thousands of dollars (scale=1000)
-            ['Toyota', (50, 120), (25, 70)],
-            ['Honda', (50, 120), (25, 70)],
-            ['Ford', (50, 120), (25, 70)],
-            ['Chevrolet', (50, 120), (25, 70)],
-            ['Nissan', (50, 120), (25, 70)],
-            ['Mazda', (50, 120), (25, 70)],
-            ['Subaru', (50, 120), (25, 70)],
-            ['Volkswagen', (50, 120), (25, 70)],
-            ['Audi', (50, 120), (25, 70)],
-            ['BMW', (50, 120), (25, 70)]
-        ]
+        # [name, (min_benefit, max_benefit), (min_cost, max_cost)], in thousands of dollars (scale=1000)
+        choices = [[brand, (50, 120), (25, 70)] for brand in Firm.keys(tags='car-maker')]
         # yield 100 examples
         for i in range(100):
-            (name, pronouns) = names[rng.choice(len(names))]
+            person = Person.sample(rng)
             my_choices = [choices[j] for j in rng.choice(len(choices), size=4, replace=False)]
             masked_choice_idx = int(rng.choice(4))
             options, benefits, costs = [], [], []
@@ -216,8 +191,7 @@ class RevealedPreference(GenericProblem):
                 costs.append(int(rng.integers(choice[2][0], choice[2][1]+1)))
             yield {
                 'type': type,
-                'name': name,
-                'pronouns': pronouns,
+                'person': person,
                 'options': options,
                 'benefits': benefits,
                 'costs': costs,

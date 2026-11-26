@@ -1,4 +1,5 @@
 import numpy as np
+from econtools.entities import Good
 from econtools.problems.base import GenericProblem
 from econtools.math.equations import PolyEq
 
@@ -8,8 +9,7 @@ class SupplyDemandEquation(GenericProblem):
     # equilibrium_price = (demand_intercept - supply_intercept) / (supply_slope - demand_slope)
 
     default_params = {
-        "singular": "widget",
-        "plural": "widgets",
+        "good": Good.get("widget"),
         "demand_intercept": 100,
         "demand_slope": -1,
         "supply_intercept": 0,
@@ -34,13 +34,13 @@ class SupplyDemandEquation(GenericProblem):
         }
 
         # ---- setups ----
-        setup = f"Demand and supply in the market for {p['plural']} are given by the following equations:\n\n"
+        setup = f"Demand and supply in the market for {p['good'].plural} are given by the following equations:\n\n"
         setup += f"\\begin{{align}}\n"
         setup += f"q_d &= {demand_eq.print()} \\\\ \n"
         setup += f"q_s &= {supply_eq.print()} \n"
         setup += f"\\end{{align}}\n\n"
 
-        online_setup = f"<p>Demand and supply in the market for {p['plural']} are given by the following equations:</p>\n\n"
+        online_setup = f"<p>Demand and supply in the market for {p['good'].plural} are given by the following equations:</p>\n\n"
         online_setup += f"$$\\begin{{align}}\n"
         online_setup += f"q_d &= {demand_eq.print()} \\\\ \n"
         online_setup += f"q_s &= {supply_eq.print()} \n"
@@ -62,26 +62,14 @@ class SupplyDemandEquation(GenericProblem):
     @classmethod
     def candidate_params(cls, rng):
         N_SAMPLES = 300
-        names = [
-            ('widget', 'widgets'),
-            ('coffee', 'coffee'),
-            ('robot', 'robots'),
-            ('corn', 'corn'),
-            ('doodad', 'doodads'),
-            ('bike', 'bikes'),
-            ('USB stick', 'USB sticks')
-        ]
         for i in range(N_SAMPLES):
-            name = rng.choice(names)
-            singular = name[0]
-            plural = name[1]
+            good = Good.sample(rng, tags='market')
             demand_intercept = rng.integers(10, 101)
             demand_slope = rng.integers(-10, 0)
             supply_intercept = rng.integers(-20, demand_intercept-10+1)
             supply_slope = rng.integers(1, 11)
             yield {
-                'singular': singular,
-                'plural': plural,
+                'good': good,
                 'demand_intercept': demand_intercept,
                 'demand_slope': demand_slope,
                 'supply_intercept': supply_intercept,
