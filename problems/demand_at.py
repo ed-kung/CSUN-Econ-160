@@ -23,8 +23,6 @@ class DemandAt(GenericProblem):
         point1 = Point(x=p['point1'][0], y=p['point1'][1])
         point2 = Point(x=p['point2'][0], y=p['point2'][1])
         demand = LinearDemand.from_points(point1, point2, label="D", labelstyle="label", labelshift=0.2)
-        demand_xg = np.arange(0, min(demand.eval_at_p(1)+0.1, 12), 0.1)
-        demand.line.plot_x = demand_xg
         axis = Axis(
             xn=13, yn=13, xscale=good.qscale, yscale=good.pscale, xlab="Quantity", ylab="Price",
             xnumtype='', ynumtype='$', xrot=45, yrot=0 

@@ -11,9 +11,7 @@ class SupplyDemand(GenericProblem):
         "good": Good.get("widgets"),
         "demand_point": (0, 12),
         "supply_point": (0, 0),
-        "equilibrium": (6, 6),
-        "pmax": 13,
-        "qmax": 13
+        "equilibrium": (6, 6)
     }
     rpg_topic = "supply-demand"
     rpg_title = "4. Supply and Demand"
@@ -25,14 +23,10 @@ class SupplyDemand(GenericProblem):
         equilibrium = Point(x=p['equilibrium'][0], y=p['equilibrium'][1])
         demand = LinearDemand.from_points(demand_point, equilibrium, label="D", labelstyle="label", labelshift=0.2)
         supply = LinearSupply.from_points(supply_point, equilibrium, label="S", labelstyle="label", labelshift=0.2)
-        demand_xg = np.arange(0, min(demand.eval_at_p(1)+0.1, 12), 0.1)
-        supply_xg = np.arange(0, min(supply.eval_at_p(p['pmax']-1)+0.1, 12), 0.1)
-        demand.line.plot_x = demand_xg
-        supply.line.plot_x = supply_xg
         market = LinearMarket(demand=demand, supply=supply)
         good = p['good']
         axis = Axis(
-            xn=p['qmax'], yn=p['pmax'], xscale=good.qscale, yscale=good.pscale, xlab="Quantity", ylab="Price",
+            xn=13, yn=13, xscale=good.qscale, yscale=good.pscale, xlab="Quantity", ylab="Price",
             xnumtype='', ynumtype='$', xrot=45, yrot=0 
         )
         axis.add(demand, supply)
@@ -84,7 +78,5 @@ class SupplyDemand(GenericProblem):
                 'good': good,
                 'demand_point': (0, demand_a),
                 'supply_point': (0, supply_a),
-                'equilibrium': (eq_x, eq_y),
-                'pmax': 13,
-                'qmax': 13
+                'equilibrium': (eq_x, eq_y)
             }

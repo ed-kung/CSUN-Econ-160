@@ -23,8 +23,6 @@ class SupplyAt(GenericProblem):
         point1 = Point(x=p['point1'][0], y=p['point1'][1])
         point2 = Point(x=p['point2'][0], y=p['point2'][1])
         supply = LinearSupply.from_points(point1, point2, label="S", labelstyle="label", labelshift=0.2)
-        supply_xg = np.arange(0, min(supply.eval_at_p(13-1)+0.1, 12), 0.1)
-        supply.line.plot_x = supply_xg
         axis = Axis(
             xn=13, yn=13, xscale=good.qscale, yscale=good.pscale, xlab="Quantity", ylab="Price",
             xnumtype='', ynumtype='$', xrot=45, yrot=0 
