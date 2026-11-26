@@ -75,6 +75,7 @@ class SupplyDemand(GenericProblem):
         N_SAMPLES = 300
         for i in range(N_SAMPLES):
             good = Good.sample(rng, tags='market')   # graph scales: good.pscale/qscale per grid unit
+            good.qscale = rng.choice([100, 500, 1_000, 5_000, 10_000, 50_000, 100_000, 1_000_000])
             eq_x = rng.integers(4, 11)
             eq_y = rng.integers(4, 8)
             demand_a = rng.integers(eq_y+1, 13)
