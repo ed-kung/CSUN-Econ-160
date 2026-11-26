@@ -1,5 +1,245 @@
 [
   {
+    "setup": "<p><p>The market demand curve for corn is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg0_graph.png\"></p>\n<p>1. At a price of $50, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 20k?</p>\n<p>3. Suppose 20k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 70k</p>\n<p>2. $70</p>\n<p>3. $70</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for doodads is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg1_graph.png\"></p>\n<p>1. At a price of $6, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 1m?</p>\n<p>3. Suppose 1m units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 700k</p>\n<p>2. $5</p>\n<p>3. $5</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for smartphones is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg2_graph.png\"></p>\n<p>1. At a price of $400, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 5k?</p>\n<p>3. Suppose 5k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 40k</p>\n<p>2. $1k</p>\n<p>3. $1k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for smartphones is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg3_graph.png\"></p>\n<p>1. At a price of $900, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 300k?</p>\n<p>3. Suppose 300k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 50k</p>\n<p>2. $400</p>\n<p>3. $400</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg4_graph.png\"></p>\n<p>1. At a price of $200, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 10m?</p>\n<p>3. Suppose 10m units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 2m</p>\n<p>2. $125</p>\n<p>3. $125</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for corn is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg5_graph.png\"></p>\n<p>1. At a price of $60, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 4m?</p>\n<p>3. Suppose 4m units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 10m</p>\n<p>2. $80</p>\n<p>3. $80</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for corn is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg6_graph.png\"></p>\n<p>1. At a price of $60, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 3k?</p>\n<p>3. Suppose 3k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 6k</p>\n<p>2. $90</p>\n<p>3. $90</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg7_graph.png\"></p>\n<p>1. At a price of $80, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 100k?</p>\n<p>3. Suppose 100k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 600k</p>\n<p>2. $90</p>\n<p>3. $90</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for smartphones is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg8_graph.png\"></p>\n<p>1. At a price of $500, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 20k?</p>\n<p>3. Suppose 20k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 60k</p>\n<p>2. $700</p>\n<p>3. $700</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg9_graph.png\"></p>\n<p>1. At a price of $45, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 450k?</p>\n<p>3. Suppose 450k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 100k</p>\n<p>2. $25</p>\n<p>3. $25</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg10_graph.png\"></p>\n<p>1. At a price of $25, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 3.5k?</p>\n<p>3. Suppose 3.5k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 2.5k</p>\n<p>2. $20</p>\n<p>3. $20</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg11_graph.png\"></p>\n<p>1. At a price of $225, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 500?</p>\n<p>3. Suppose 500 units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 900</p>\n<p>2. $250</p>\n<p>3. $250</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for corn is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg12_graph.png\"></p>\n<p>1. At a price of $90, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 8k?</p>\n<p>3. Suppose 8k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 2k</p>\n<p>2. $80</p>\n<p>3. $80</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for computers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg13_graph.png\"></p>\n<p>1. At a price of $700, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 500k?</p>\n<p>3. Suppose 500k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 100k</p>\n<p>2. $400</p>\n<p>3. $400</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for smartphones is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg14_graph.png\"></p>\n<p>1. At a price of $1k, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 40k?</p>\n<p>3. Suppose 40k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 5k</p>\n<p>2. $400</p>\n<p>3. $400</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for computers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg15_graph.png\"></p>\n<p>1. At a price of $700, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 10k?</p>\n<p>3. Suppose 10k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 40k</p>\n<p>2. $800</p>\n<p>3. $800</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg16_graph.png\"></p>\n<p>1. At a price of $40, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 1.5k?</p>\n<p>3. Suppose 1.5k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 5k</p>\n<p>2. $80</p>\n<p>3. $80</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg17_graph.png\"></p>\n<p>1. At a price of $30, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 500?</p>\n<p>3. Suppose 500 units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 5k</p>\n<p>2. $40</p>\n<p>3. $40</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg18_graph.png\"></p>\n<p>1. At a price of $25, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 60k?</p>\n<p>3. Suppose 60k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 10k</p>\n<p>2. $20</p>\n<p>3. $20</p>\n"
+  },
+  {
+    "setup": "<p><p>The market demand curve for USB sticks is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/demand_at_rpg19_graph.png\"></p>\n<p>1. At a price of $8, what is the quantity demanded?</p>\n<p>2. At what price would quantity demanded be equal to 1k?</p>\n<p>3. Suppose 1k units are being consumed. What is the marginal benefit of the last unit consumed?</p>\n",
+    "solution": "<p>1. 2k</p>\n<p>2. $14</p>\n<p>3. $14</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg0_graph.png\"><p>At a price of $125, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 30k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg1_graph.png\"><p>At a price of $90, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 700k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for computers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg2_graph.png\"><p>At a price of $1k, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 4k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for robots is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg3_graph.png\"><p>At a price of $4.5k, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 500k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for USB sticks is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg4_graph.png\"><p>At a price of $6, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 70k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for t-shirts is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg5_graph.png\"><p>At a price of $35, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 700k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for computers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg6_graph.png\"><p>At a price of $700, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 600</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg7_graph.png\"><p>At a price of $40, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 900</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg8_graph.png\"><p>At a price of $75, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 40k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for doodads is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg9_graph.png\"><p>At a price of $3, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 7m</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg10_graph.png\"><p>At a price of $100, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 700</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg11_graph.png\"><p>At a price of $35, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 300k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg12_graph.png\"><p>At a price of $30, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 8k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for USB sticks is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg13_graph.png\"><p>At a price of $6, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 80k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg14_graph.png\"><p>At a price of $80k, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 6k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for USB sticks is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg15_graph.png\"><p>At a price of $4, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 90k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg16_graph.png\"><p>At a price of $30k, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 1.5k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg17_graph.png\"><p>At a price of $30k, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 2k</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg18_graph.png\"><p>At a price of $70, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess supply</p>\n<p>2. 500</p>\n"
+  },
+  {
+    "setup": "<p><p>Supply and demand in the perfectly competitive market for corn is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/excess_at_rpg19_graph.png\"><p>At a price of $20, there is ______ of ______ units.</p></p>\n<p>1. Fill in the first blank.</p>\n<p>2. Fill in the second blnak.</p>\n",
+    "solution": "<p>1. excess demand</p>\n<p>2. 3.5k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg0_graph.png\"></p>\n<p>1. At a price of $10, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 4.5k?</p>\n<p>3. Suppose 4.5k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 1.5k</p>\n<p>2. $30</p>\n<p>3. $30</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg1_graph.png\"></p>\n<p>1. At a price of $25, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 5k?</p>\n<p>3. Suppose 5k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 3k</p>\n<p>2. $35</p>\n<p>3. $35</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for robots is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg2_graph.png\"></p>\n<p>1. At a price of $2.5k, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 350k?</p>\n<p>3. Suppose 350k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 150k</p>\n<p>2. $3k</p>\n<p>3. $3k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg3_graph.png\"></p>\n<p>1. At a price of $80, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 20k?</p>\n<p>3. Suppose 20k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 60k</p>\n<p>2. $50</p>\n<p>3. $50</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg4_graph.png\"></p>\n<p>1. At a price of $45, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 500k?</p>\n<p>3. Suppose 500k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 1m</p>\n<p>2. $40</p>\n<p>3. $40</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg5_graph.png\"></p>\n<p>1. At a price of $40, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 6m?</p>\n<p>3. Suppose 6m units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 10m</p>\n<p>2. $35</p>\n<p>3. $35</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for computers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg6_graph.png\"></p>\n<p>1. At a price of $600, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 9m?</p>\n<p>3. Suppose 9m units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 2m</p>\n<p>2. $1k</p>\n<p>3. $1k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for smartphones is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg7_graph.png\"></p>\n<p>1. At a price of $700, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 5k?</p>\n<p>3. Suppose 5k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 2k</p>\n<p>2. $1k</p>\n<p>3. $1k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for t-shirts is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg8_graph.png\"></p>\n<p>1. At a price of $55, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 20k?</p>\n<p>3. Suppose 20k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 110k</p>\n<p>2. $25</p>\n<p>3. $25</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for cars is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg9_graph.png\"></p>\n<p>1. At a price of $80k, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 400k?</p>\n<p>3. Suppose 400k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 600k</p>\n<p>2. $60k</p>\n<p>3. $60k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for USB sticks is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg10_graph.png\"></p>\n<p>1. At a price of $16, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 11k?</p>\n<p>3. Suppose 11k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 2k</p>\n<p>2. $20</p>\n<p>3. $20</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for coffee is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg11_graph.png\"></p>\n<p>1. At a price of $25, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 4k?</p>\n<p>3. Suppose 4k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 2.5k</p>\n<p>2. $30</p>\n<p>3. $30</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for doodads is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg12_graph.png\"></p>\n<p>1. At a price of $5, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 4m?</p>\n<p>3. Suppose 4m units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 10m</p>\n<p>2. $2</p>\n<p>3. $2</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for robots is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg13_graph.png\"></p>\n<p>1. At a price of $3k, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 7m?</p>\n<p>3. Suppose 7m units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 5m</p>\n<p>2. $3.5k</p>\n<p>3. $3.5k</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for corn is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg14_graph.png\"></p>\n<p>1. At a price of $50, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 350k?</p>\n<p>3. Suppose 350k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 150k</p>\n<p>2. $70</p>\n<p>3. $70</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for board games is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg15_graph.png\"></p>\n<p>1. At a price of $60, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 100k?</p>\n<p>3. Suppose 100k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 200k</p>\n<p>2. $30</p>\n<p>3. $30</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for bikes is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg16_graph.png\"></p>\n<p>1. At a price of $175, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 5k?</p>\n<p>3. Suppose 5k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 10k</p>\n<p>2. $150</p>\n<p>3. $150</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for widgets is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg17_graph.png\"></p>\n<p>1. At a price of $40, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 3k?</p>\n<p>3. Suppose 3k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 4.5k</p>\n<p>2. $30</p>\n<p>3. $30</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for t-shirts is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg18_graph.png\"></p>\n<p>1. At a price of $25, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 2.5k?</p>\n<p>3. Suppose 2.5k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 1k</p>\n<p>2. $35</p>\n<p>3. $35</p>\n"
+  },
+  {
+    "setup": "<p><p>The market supply curve for sneakers is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_at_rpg19_graph.png\"></p>\n<p>1. At a price of $10, what is the quantity supplied?</p>\n<p>2. At what price would quantity supplied be equal to 3.5k?</p>\n<p>3. Suppose 3.5k units are being produced. What is the marginal cost of the last unit produced?</p>\n",
+    "solution": "<p>1. 1k</p>\n<p>2. $35</p>\n<p>3. $35</p>\n"
+  },
+  {
     "setup": "<p><p>Supply and demand in the perfectly competitive market for doodads is shown in the diagram below.</p><img src=\"/CSUN-Econ-160/assets/images/graphs/supply_demand_rpg0_graph.png\"></p>\n<p>1. What is the equilibrium price in the market?</p>\n<p>2. What is the equilibrium quantity in the market?</p>\n<p>3. What is the total volume of transactions in the market?</p>\n",
     "solution": "<p>1. $4</p>\n<p>2. 900</p>\n<p>3. $3.6k</p>\n"
   },
